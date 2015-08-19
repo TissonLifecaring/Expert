@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y54-cP-uZh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--System Set-->
+        <scene sceneID="SLY-Ja-AjF">
+            <objects>
+                <tableViewController storyboardIdentifier="SystemSet" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="y54-cP-uZh" customClass="SystemSetTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Gf7-4X-bYp">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="EUS-hO-Xtt">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="50" id="OKd-3A-dfc">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OKd-3A-dfc" id="rcf-1P-hai">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" fixedFrame="YES" text="Reset Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnD-8u-oVE" customClass="CustomLabel">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="49"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="50" id="gVd-eM-BIm">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gVd-eM-BIm" id="giO-ik-PQg">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" fixedFrame="YES" text="Reset Telephone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjb-sN-cHc" customClass="CustomLabel">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="49"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="y54-cP-uZh" id="KMH-vy-Zgj"/>
+                            <outlet property="delegate" destination="y54-cP-uZh" id="wmq-IL-8D9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="System Set" id="VOX-h6-JeG"/>
+                    <connections>
+                        <segue destination="Gk2-gt-4R8" kind="show" identifier="goBindPhone" id="ge4-r8-KPL"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RSR-pB-kdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="-12"/>
+        </scene>
+        <!--Reset Telephone-->
+        <scene sceneID="MAt-T0-jXP">
+            <objects>
+                <viewController id="Gk2-gt-4R8" customClass="BindPhoneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p4Z-8z-6K5"/>
+                        <viewControllerLayoutGuide type="bottom" id="sRu-Tb-xqC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dSz-Up-Il4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdW-3I-Q3X">
+                                <rect key="frame" x="0.0" y="64" width="600" height="250"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="006" translatesAutoresizingMaskIntoConstraints="NO" id="DZI-kc-xgm">
+                                        <rect key="frame" x="162" y="62" width="12" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="IuD-JR-Uak"/>
+                                            <constraint firstAttribute="width" constant="12" id="cMw-jT-haT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="002" translatesAutoresizingMaskIntoConstraints="NO" id="IVz-Z6-bqc">
+                                        <rect key="frame" x="160" y="108" width="19" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="19" id="0b1-o0-9IQ"/>
+                                            <constraint firstAttribute="height" constant="21" id="6Jg-mU-g44"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reset Telephone By Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKT-Bk-6mI" customClass="CustomLabel">
+                                        <rect key="frame" x="155" y="20" width="240" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="SL5-vj-gaa"/>
+                                            <constraint firstAttribute="height" constant="20" id="yTs-Sz-vcv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="004" translatesAutoresizingMaskIntoConstraints="NO" id="Vy2-08-AzI">
+                                        <rect key="frame" x="155" y="80" width="290" height="7"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="290" id="erc-u1-Vdo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Input Your Former Telephone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9a6-sS-XAh">
+                                        <rect key="frame" x="186" y="60" width="254" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="Yr3-vc-SWW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Gk2-gt-4R8" id="kfN-YR-Y0L"/>
+                                        </connections>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="004" translatesAutoresizingMaskIntoConstraints="NO" id="TUG-wN-Nup">
+                                        <rect key="frame" x="155" y="127" width="290" height="7"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="7" id="Cr0-C9-KQt"/>
+                                            <constraint firstAttribute="width" constant="290" id="u5K-2W-YdK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Input Your Former Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mvg-0d-Yvo">
+                                        <rect key="frame" x="185" y="107" width="254" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="z8s-cX-dvV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Gk2-gt-4R8" id="JHl-A3-qci"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFz-6g-v0p">
+                                        <rect key="frame" x="155" y="165" width="290" height="32"/>
+                                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="U0F-sV-lh4"/>
+                                            <constraint firstAttribute="width" constant="290" id="x7T-3m-PGQ"/>
+                                        </constraints>
+                                        <state key="normal" title="Verification">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="verificationButtonEvent:" destination="Gk2-gt-4R8" eventType="touchUpInside" id="fZA-E6-iWm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="mvg-0d-Yvo" firstAttribute="trailing" secondItem="TUG-wN-Nup" secondAttribute="trailing" constant="-6" id="0Bm-2C-DuK"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="bottom" secondItem="DZI-kc-xgm" secondAttribute="bottom" constant="5" id="1PI-w3-WBa"/>
+                                    <constraint firstItem="TUG-wN-Nup" firstAttribute="leading" secondItem="IVz-Z6-bqc" secondAttribute="leading" constant="-5" id="1Zp-R7-dUZ"/>
+                                    <constraint firstItem="mvg-0d-Yvo" firstAttribute="bottom" secondItem="TUG-wN-Nup" secondAttribute="bottom" id="47N-oW-fYX"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="centerX" secondItem="TUG-wN-Nup" secondAttribute="centerX" id="8b2-SH-jeH"/>
+                                    <constraint firstItem="9a6-sS-XAh" firstAttribute="leading" secondItem="DZI-kc-xgm" secondAttribute="trailing" constant="12" id="Clv-dH-lCL"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="bottom" secondItem="9a6-sS-XAh" secondAttribute="bottom" id="GWF-LA-XNP"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="trailing" secondItem="9a6-sS-XAh" secondAttribute="trailing" constant="5" id="JnI-WR-LBt"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="top" secondItem="oKT-Bk-6mI" secondAttribute="bottom" constant="40" id="LSs-nB-u1O"/>
+                                    <constraint firstAttribute="height" constant="250" id="SL7-VN-ddh"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="leading" secondItem="oKT-Bk-6mI" secondAttribute="leading" id="VOo-8z-ICs"/>
+                                    <constraint firstItem="zFz-6g-v0p" firstAttribute="centerX" secondItem="Vy2-08-AzI" secondAttribute="centerX" id="d9C-re-4Pu"/>
+                                    <constraint firstAttribute="centerX" secondItem="Vy2-08-AzI" secondAttribute="centerX" id="ePD-M3-2FF"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="top" secondItem="bdW-3I-Q3X" secondAttribute="top" constant="80" id="g1i-27-Cb0"/>
+                                    <constraint firstItem="zFz-6g-v0p" firstAttribute="top" secondItem="TUG-wN-Nup" secondAttribute="bottom" constant="31" id="m3S-ol-PkA"/>
+                                    <constraint firstItem="Vy2-08-AzI" firstAttribute="leading" secondItem="DZI-kc-xgm" secondAttribute="leading" constant="-7" id="tsh-Yv-V7A"/>
+                                    <constraint firstItem="TUG-wN-Nup" firstAttribute="top" secondItem="Vy2-08-AzI" secondAttribute="bottom" constant="40" id="w53-Of-Zea"/>
+                                    <constraint firstItem="mvg-0d-Yvo" firstAttribute="leading" secondItem="IVz-Z6-bqc" secondAttribute="trailing" constant="6" id="yhl-Qd-9Kf"/>
+                                    <constraint firstItem="TUG-wN-Nup" firstAttribute="bottom" secondItem="IVz-Z6-bqc" secondAttribute="bottom" constant="5" id="zaW-1a-JYz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bdW-3I-Q3X" firstAttribute="leading" secondItem="dSz-Up-Il4" secondAttribute="leading" id="mu0-Ny-3Hd"/>
+                            <constraint firstItem="bdW-3I-Q3X" firstAttribute="top" secondItem="p4Z-8z-6K5" secondAttribute="bottom" id="uvd-wm-0An"/>
+                            <constraint firstAttribute="trailing" secondItem="bdW-3I-Q3X" secondAttribute="trailing" id="w5J-O5-qXA"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="YBV-px-vVc" appends="YES" id="w9E-mK-csE"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Reset Telephone" id="HeK-QF-jrw"/>
+                    <connections>
+                        <outlet property="passwordButtonView" destination="TUG-wN-Nup" id="MjJ-e9-oqo"/>
+                        <outlet property="passwordTextField" destination="mvg-0d-Yvo" id="lSo-AS-hrC"/>
+                        <outlet property="phoneButtonView" destination="Vy2-08-AzI" id="OxA-cT-fXA"/>
+                        <outlet property="phoneTextField" destination="9a6-sS-XAh" id="Lbj-C3-DMT"/>
+                        <outlet property="topYCons" destination="g1i-27-Cb0" id="6gQ-e3-giM"/>
+                        <segue destination="OKz-Xe-FFo" kind="show" identifier="goInputPhone" id="h8X-ep-Vk7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vq1-hi-hlz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="YBV-px-vVc">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="Gk2-gt-4R8" id="tre-ha-Rd6"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2076" y="-11"/>
+        </scene>
+        <!--Reset Telephone-->
+        <scene sceneID="9gq-gf-JEL">
+            <objects>
+                <viewController id="OKz-Xe-FFo" customClass="InputPhoneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Go6-Bb-CzL"/>
+                        <viewControllerLayoutGuide type="bottom" id="X7z-Jd-mLF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vXP-Lx-bCq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbe-yJ-a0O">
+                                <rect key="frame" x="0.0" y="64" width="600" height="180"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="007" translatesAutoresizingMaskIntoConstraints="NO" id="U4X-ZL-pHr">
+                                        <rect key="frame" x="155" y="52" width="290" height="7"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="7" id="A9Q-HM-xCy"/>
+                                            <constraint firstAttribute="width" constant="290" id="TLb-Mg-HMv"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="006" translatesAutoresizingMaskIntoConstraints="NO" id="a59-Pb-9gq">
+                                        <rect key="frame" x="162" y="34" width="12" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="12" id="23N-1N-1dG"/>
+                                            <constraint firstAttribute="height" constant="20" id="zOL-bV-o1W"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Input Your New Telephone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Xs-7G-LlS">
+                                        <rect key="frame" x="186" y="32" width="259" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="V6w-zU-Zhp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="OKz-Xe-FFo" id="GpR-uZ-vMh"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1U-qS-Nhd">
+                                        <rect key="frame" x="155" y="78" width="290" height="32"/>
+                                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="w07-Yy-JkB"/>
+                                        </constraints>
+                                        <state key="normal" title="Get Verification Code">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getNumberButtonEvent:" destination="OKz-Xe-FFo" eventType="touchUpInside" id="71c-US-6bv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="p1U-qS-Nhd" firstAttribute="top" secondItem="U4X-ZL-pHr" secondAttribute="bottom" constant="19" id="0eQ-3z-TvY"/>
+                                    <constraint firstItem="a59-Pb-9gq" firstAttribute="leading" secondItem="U4X-ZL-pHr" secondAttribute="leading" constant="7" id="1jt-AP-efr"/>
+                                    <constraint firstItem="U4X-ZL-pHr" firstAttribute="top" secondItem="a59-Pb-9gq" secondAttribute="bottom" constant="-2" id="2aL-ry-8LA"/>
+                                    <constraint firstItem="U4X-ZL-pHr" firstAttribute="top" secondItem="5Xs-7G-LlS" secondAttribute="bottom" constant="-7" id="4Fy-rt-9IM"/>
+                                    <constraint firstAttribute="centerX" secondItem="U4X-ZL-pHr" secondAttribute="centerX" id="A1J-L7-v4O"/>
+                                    <constraint firstAttribute="centerX" secondItem="p1U-qS-Nhd" secondAttribute="centerX" id="BGD-5Z-b0L"/>
+                                    <constraint firstAttribute="height" constant="180" id="HGX-uC-NV1"/>
+                                    <constraint firstItem="U4X-ZL-pHr" firstAttribute="width" secondItem="p1U-qS-Nhd" secondAttribute="width" id="OSH-BW-84W"/>
+                                    <constraint firstItem="5Xs-7G-LlS" firstAttribute="leading" secondItem="a59-Pb-9gq" secondAttribute="trailing" constant="12" id="SiI-59-9Mx"/>
+                                    <constraint firstItem="5Xs-7G-LlS" firstAttribute="trailing" secondItem="U4X-ZL-pHr" secondAttribute="trailing" id="Y8j-wQ-o6m"/>
+                                    <constraint firstItem="U4X-ZL-pHr" firstAttribute="top" secondItem="cbe-yJ-a0O" secondAttribute="top" constant="52" id="wfW-Ht-2AF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cbe-yJ-a0O" firstAttribute="leading" secondItem="vXP-Lx-bCq" secondAttribute="leading" id="9oD-XZ-Nm2"/>
+                            <constraint firstAttribute="trailing" secondItem="cbe-yJ-a0O" secondAttribute="trailing" id="LgD-jZ-ozZ"/>
+                            <constraint firstItem="cbe-yJ-a0O" firstAttribute="top" secondItem="Go6-Bb-CzL" secondAttribute="bottom" id="lys-P2-cfJ"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="J0j-rR-clX" appends="YES" id="eH4-Mz-qcb"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Reset Telephone" id="e1U-TU-K0G"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="phoneButtonView" destination="U4X-ZL-pHr" id="USq-Ur-uoB"/>
+                        <outlet property="phoneField" destination="5Xs-7G-LlS" id="fGf-NK-LTF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pif-eB-MP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="J0j-rR-clX">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="OKz-Xe-FFo" id="cZr-1P-fLe"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2841" y="-12"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ybY-vv-1m3">
+            <objects>
+                <navigationController useStoryboardIdentifierAsRestorationIdentifier="YES" id="XB3-ZO-NoY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="pQB-sU-QtW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.17254901959999999" green="0.49019607840000001" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="y54-cP-uZh" kind="relationship" relationship="rootViewController" id="b38-cY-88x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K2N-mr-Yva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="13"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="002" width="22" height="22"/>
+        <image name="004" width="227" height="7"/>
+        <image name="006" width="10" height="16"/>
+        <image name="007" width="290" height="7"/>
+    </resources>
+</document>

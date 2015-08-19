@@ -1,0 +1,57 @@
+
+/* Class = "IBUILabel"; text = "mmol/L"; ObjectID = "08g-ch-cWC"; */
+"08g-ch-cWC.text" = "mmol/L";
+
+/* Class = "IBUILabel"; text = "Verification Code"; ObjectID = "44g-Qz-cdc"; */
+"44g-Qz-cdc.text" = "驗證碼";
+
+/* Class = "IBUITextField"; placeholder = "Input Your New Telephone Number"; ObjectID = "5Xs-7G-LlS"; */
+"5Xs-7G-LlS.placeholder" = "輸入您要綁定的新手機號碼";
+
+/* Class = "IBUITextField"; placeholder = "Input Your Former Telephone Number"; ObjectID = "9a6-sS-XAh"; */
+"9a6-sS-XAh.placeholder" = "輸入您的原手機號碼";
+
+/* Class = "IBUIButton"; normalTitle = "Binding Telephone"; ObjectID = "B7i-jf-sqK"; */
+"B7i-jf-sqK.normalTitle" = "綁定手機";
+
+/* Class = "IBUIButton"; normalTitle = "Verify"; ObjectID = "GOv-P8-1Nx"; */
+"GOv-P8-1Nx.normalTitle" = "發送驗證";
+
+/* Class = "IBUINavigationItem"; title = "Reset Telephone"; ObjectID = "HeK-QF-jrw"; */
+"HeK-QF-jrw.title" = "重新綁定手機";
+
+/* Class = "IBUILabel"; text = "Gluco Unit"; ObjectID = "Q9D-st-3nY"; */
+"Q9D-st-3nY.text" = "血糖單位";
+
+/* Class = "IBUINavigationItem"; title = "System Set"; ObjectID = "VOX-h6-JeG"; */
+"VOX-h6-JeG.title" = "系統設置";
+
+/* Class = "IBUILabel"; text = "Reset Password"; ObjectID = "VnD-8u-oVE"; */
+"VnD-8u-oVE.text" = "重設密碼";
+
+/* Class = "IBUITextField"; placeholder = "Input The Verification Code"; ObjectID = "dbs-vE-lwr"; */
+"dbs-vE-lwr.placeholder" = "輸入您收到的驗證碼";
+
+/* Class = "IBUINavigationItem"; title = "Reset Telephone"; ObjectID = "e1U-TU-K0G"; */
+"e1U-TU-K0G.title" = "重新綁定手機";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "eDL-5M-VxR"; */
+"eDL-5M-VxR.title" = "菜單";
+
+/* Class = "IBUITextField"; placeholder = "Input Your Former Password"; ObjectID = "mvg-0d-Yvo"; */
+"mvg-0d-Yvo.placeholder" = "輸入您的原登錄號碼";
+
+/* Class = "IBUILabel"; text = "Reset Telephone By Password"; ObjectID = "oKT-Bk-6mI"; */
+"oKT-Bk-6mI.text" = "通過登錄密碼重新綁定手機";
+
+/* Class = "IBUIButton"; normalTitle = "Get Verification Code"; ObjectID = "p1U-qS-Nhd"; */
+"p1U-qS-Nhd.normalTitle" = "獲取驗證碼";
+
+/* Class = "IBUILabel"; text = "Reset Telephone"; ObjectID = "qjb-sN-cHc"; */
+"qjb-sN-cHc.text" = "重新綁定手機";
+
+/* Class = "IBUINavigationItem"; title = "Reset Telephone"; ObjectID = "r0K-0I-oDT"; */
+"r0K-0I-oDT.title" = "重新綁定手機";
+
+/* Class = "IBUIButton"; normalTitle = "Verification"; ObjectID = "zFz-6g-v0p"; */
+"zFz-6g-v0p.normalTitle" = "驗證";

@@ -1,0 +1,10 @@
+/* 
+  infoPlist.strings
+  SugarNursing
+
+  Created by Ian on 15-1-29.
+  Copyright (c) 2015年 Tisson. All rights reserved.
+*/
+
+
+CFBundleDisplayName = "GluCare";

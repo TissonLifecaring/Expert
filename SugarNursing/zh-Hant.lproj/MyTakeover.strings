@@ -1,0 +1,27 @@
+
+/* Class = "IBUILabel"; text = "医生王大虎于2012年1月1日12:13把病人王小虎（女 45岁）托管给我，预计托管时间:13/12/03至14/12/12ddddddddddddddddddddddddddddddd福克斯的解放路口就是离开房间收到了科技ddd两点上课就分了SD卡解放路口圣诞节了深刻的房间里的开始放假了SD卡分局领导说开房记录的思考几分两点开始减肥"; ObjectID = "9ho-V2-weJ"; */
+"9ho-V2-weJ.text" = "医生王大虎于2012年1月1日12:13把病人王小虎（女 45岁）托管给我，预计托管时间:13/12/03至14/12/12ddddddddddddddddddddddddddddddd福克斯的解放路口就是离开房间收到了科技ddd两点上课就分了SD卡解放路口圣诞节了深刻的房间里的开始放假了SD卡分局领导说开房记录的思考几分两点开始减肥";
+
+/* Class = "IBUINavigationItem"; title = "Hosting/Takeover"; ObjectID = "DaG-ha-cih"; */
+"DaG-ha-cih.title" = "我的接管";
+
+/* Class = "IBUIButton"; normalTitle = "Refuse"; ObjectID = "HNp-tB-iIp"; */
+"HNp-tB-iIp.normalTitle" = "退回託管";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "Pa2-o8-dGV"; */
+"Pa2-o8-dGV.title" = "菜單";
+
+/* Class = "IBUISegmentedControl"; abW-fs-JyA.segmentTitles[0] = "Wait For"; ObjectID = "abW-fs-JyA"; */
+"abW-fs-JyA.segmentTitles[0]" = "待驗證";
+
+/* Class = "IBUISegmentedControl"; abW-fs-JyA.segmentTitles[1] = "Confirm"; ObjectID = "abW-fs-JyA"; */
+"abW-fs-JyA.segmentTitles[1]" = "已接管";
+
+/* Class = "IBUISegmentedControl"; abW-fs-JyA.segmentTitles[2] = "Refuse"; ObjectID = "abW-fs-JyA"; */
+"abW-fs-JyA.segmentTitles[2]" = "已拒絕";
+
+/* Class = "IBUISegmentedControl"; abW-fs-JyA.segmentTitles[3] = "Out of date"; ObjectID = "abW-fs-JyA"; */
+"abW-fs-JyA.segmentTitles[3]" = "已過期";
+
+/* Class = "IBUIButton"; normalTitle = "Accept"; ObjectID = "vhT-cN-P74"; */
+"vhT-cN-P74.normalTitle" = "接受託管";

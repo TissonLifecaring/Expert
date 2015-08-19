@@ -1,0 +1,456 @@
+/* 
+  Localizable.strings
+  SugarNursing
+
+  Created by Dan on 14-11-5.
+  Copyright (c) 2014年 Tisson. All rights reserved.
+*/
+
+
+
+"glucose" = "血糖";
+"hemoglobin" = "糖化血红蛋白";
+
+/* Network */
+"Request Error" = "请求出错";
+"Fallback Error Failure Reason Format" = "连接网络失败";
+"Cannot find specified host." = "连接网络失败";
+"Cannot connect to specified host." = "连接网络失败";
+"Cannot connect to the internet." = "连接网络失败";
+
+"Server is busy" = "网络繁忙";
+/* Basic */
+"New Version" = "发现新版本";
+"Skip" = "忽略";
+"Go to Store" = "下载更新";
+"It's the newest version" = "已经是最新版本";
+"Find the new Version" = "发现新版本";
+
+"Cancel" = "取消";
+"Confirm" = "确定";
+
+"Warm prompt" = "温馨提示";
+"Can't be late for today" = "所选日期不能晚于今日";
+
+"Save" = "保存";
+
+/* hub */
+"loading.." = "载入中..";
+"Login.." = "登录中..";
+"Logout.." = "注销中..";
+"Error" = "错误";
+"Dismiss" = "取消";
+
+"Pull down to refresh…" = "下拉刷新…";
+"Release to refresh…" = "释放刷新…";
+"Loading…" = "加载中…";
+"Last Updated: %@" = "上次更新: %@";
+
+
+/* Left Menu */
+"Home" = "主页";
+"My Patient" = "我的病人";
+"My Hosting" = "我的托管";
+"My Takeover" = "我的接管";
+"My Message" = "我的消息";
+"Member Center" = "个人中心";
+"System Set" = "系统设置";
+"Log Out" = "退出登录";
+
+"patient" = "病人";
+"message" = "消息";
+"mine" = "我的";
+
+
+/* Login Section */
+
+"Register" = "手机注册";
+"Registering..." = "注册中...";
+"Reset" = "重设密码";
+"hongkong" = "香港";
+
+
+"notice"="提示";
+"errorphonenumber"="手机号码非法，请重新填写";
+"sure"="确定";
+
+"Get" = "获取";
+"Get Again" = "重新获取";
+
+"willsendthecodeto"="我们将发送验证码短信到这个号码";
+"surephonenumber"="确认手机号码";
+
+
+"verification code can't be empty" = "验证码不能为空";
+"password code can't be empty" = "密码不能为空";
+"codesenderrormsg"="验证码发送失败 请稍后重试";
+"codesenderrtitle"="发送失败";
+"Please input verification code" = "请输入验证码";
+
+"phone is not regist" = "该手机未注册";
+"Please Input Hospital" = "请输入您工作的医院";
+
+
+"password reset successful" = "密码修改成功";
+"Reset And Logining.." = "重置密码并登陆..";
+
+"Sending code" = "正在发送验证码";
+"maxcodemsg"="请求验证码超上限 请稍后重试";
+"maxcode"="超过上限";
+
+"codetoooftenmsg"="客户端请求发送短信验证过于频繁";
+
+"countrychoose"="选择国家或地区";
+"choosegender"="选择性别";
+"female"="女";
+"male"="男";
+
+"female2"="女";
+"male2"="男";
+
+"Please Choose Service Center" = "请选择服务中心";
+"Please Choose Department" = "请选择科室";
+
+"number is Binding telephone" = "该手机号已被绑定，请输入其他手机号码";
+
+"Your account is login in another place" = "您的账号已在别处登录，请重新登录";
+"This Telephone is not belong you" = "这不是您的手机号码";
+"This number is not belong you" = "这不是您的账号";
+"This number is already regist" = "该手机已注册";
+
+
+"Password Format is not avaliable" = "密码不能低于6位";
+"UserName Format is not avaliable" = "真实姓名不符合规范";
+
+/* My Paitent Section */
+"now" = "今日";
+"Sort" = "排序";
+"Search" = "搜索";
+
+"manage" = "在管";
+"trusteeship" = "托管";
+"takeover" = "接管";
+"now drug" = "现用药";
+"before drug" = "曾用药";
+
+"from next report" = "离下次出报告还有";
+
+"Single Patient" = "单个病人";
+"Control Effect" = "控糖成效";
+"Recovery Log" = "康复日志";
+"Send Suggest" = "发送建议";
+
+"Report Time Ascend" = "出报告时间顺序";
+"Report Time Descend" = "出报告时间倒序";
+"Click this select mode of sort" = "点击选择排序模式";
+"The binding time descending" = "绑定时间倒序";
+"The binding time ascending" = "绑定时间顺序";
+"Age from old to young" = "年龄从大到小";
+"Age from young to old" = "年龄从小到大";
+"Service level from high to low" = "服务等级从高到低";
+"Service level from low to high" = "服务等级从低到高";
+"Only takeover" = "只看接管";
+"Only Hosting" = "只看托管";
+
+"Unit" = "单位";
+
+"none" = "无";
+"open" = "开通";
+"No Data" = "没有数据";
+
+"Select Time Span" = "选择时间跨度";
+
+"Select By Day" = "按日查询";
+"Select By Three Days" = "近三天";
+"Select By Week" = "近一周";
+"Select By Two Weeks" = "近两周";
+"Select By Month" = "近一个月";
+"Select By Two Months" = "近两个月";
+"Select By Three Months" = "近三个月";
+
+
+"Three Days" = "近三天";
+"A Week" = "近一周";
+"Two Weeks" = "近两周";
+"A Month" = "近一个月";
+"Two Months" = "近两个月";
+"Three Months" = "近三个月";
+
+
+
+"Nearest 7 days" = "近7天";
+"Nearest 14 days" = "近14天";
+"Nearest 30 days" = "近30天";
+"Nearest 60 days" = "近60天";
+
+
+
+"detect" = "检测";
+"exercise" = "运动";
+"drug" = "用药";
+"diet" = "饮食";
+
+
+"milligram" = "毫克";
+"gram" = "克";
+"grain" = "粒";
+"piece" = "片";
+"unit" = "单位";
+"milliliter" = "毫升";
+"branch" = "支";
+"bottle" = "瓶";
+
+
+"per os" = "口服";
+"insulin pump" = "胰岛素泵";
+"injection" = "注射";
+
+
+
+
+"before breakfast" = "早餐前";
+"after breakfast" = "早餐后";
+"before lunch" = "午餐前";
+"after lunch" = "午餐后";
+"before dinner" = "晚餐前";
+"after dinner" = "晚餐后";
+
+"breakfast" = "早餐";
+"lunch" = "午餐";
+"dinner" = "晚餐";
+"extra meal" = "加餐";
+
+"glucose" = "血糖";
+"hemoglobinef" = "糖化血红蛋白";
+
+"GlucoTrace" = "糖无忌";
+"Other's facility" = "其他设备";
+
+"in all intake" = "共摄入";
+
+"By Date" = "选择日期";
+
+
+"minute" = "分钟";
+"expend" = "消耗";
+"calorie" = "大卡";
+
+"Send Report" = "发送报告";
+"Send Succeed" = "发送成功";
+
+"Read recovery log" = "查看康复日志";
+"Plese input your advice" = "请输入您的建议";
+
+
+
+/* Control Effect */
+"Fasting Blood-glucose" = "空腹血糖";
+"Postprandial Blood-glucose After 2 hours" = "餐后2小时血糖";
+"Postprandial Blood-glucose After 1 hours" = "餐后1小时血糖";
+"Glycated hemoglobin" = "糖化血红蛋白";
+"Select Period" = "选择周期";
+"Curative Effect Evaluation" = "综合疗效评估";
+"DetectionTime" = "检测次数";
+"Input Time" = "录入次数";
+"Exceeding Time" = "超标次数";
+"Maximum Value" = "最高值";
+"Minimum Value" = "最低值";
+"Average Value" = "平均值";
+"Cannot get the Evaluation" = "暂时无法获取控糖成效";
+
+
+/* My Hosting & Takeover  Section */
+
+"Choose patients" = "选择病人";
+"Choose doctor" = "选择医生";
+
+"A Commissioned Successfully" = "发起托管成功";
+
+"Choose" = "选择";
+"Time Can't be empty" = "托管时间不能为空";
+"no patient to trusteeship" = "没有可托管的病人";
+"no doctor to trusteeship" = "没有可托管的医生";
+
+"already choose" = "已选";
+"number patient" = "名病人";
+
+
+"Select All" = "全选";
+"Cancel All" = "取消全选";
+
+"Waitting" = "待验证";
+"Confirmed" = "已接受";
+"Refused" = "已退回";
+"Over" = "已过期";
+
+"BeConfirmed" = "已被接受";
+"BeRefused" = "已被退回";
+
+//trusteeship
+"于" = "于";
+"把病人" = "把病人";
+"托管给医生" = "托管给医生";
+"预计托管时间" = "预计托管时间";
+"医生" = "医生";
+"接管病人" = "接管病人";
+"托管病人" = "托管病人";
+"接管时间" = "接管时间";
+"退回接管病人" = "退回接管病人";
+"岁" = "岁";
+"至" = "至";
+"的请求" = "的请求";
+"old" = "岁";
+"old2" = "岁";
+
+
+"finish day can't earlier than begin day" = "结束日期不能早于或等于开始日期";
+"Can't be earlier than today" = "所选日期不能早于今日";
+"Can't be later than today" = "所选日期不能晚于今日";
+"begin day can't later than finish day" = "开始日期不能晚于或等于结束日期";
+"Can't be earlier and equal than today" = "所选日期不能早于或等于今日";
+
+
+"Please Choose Doctor" = "请选择要托管的医生";
+"Please Choose Patient" = "请选择需要托管的病人";
+
+
+//takeover
+"trusteeship to me" = "托管给我";
+"takeover doctor" = "接管医生";
+"her patient" = "的病人";
+"refuse doctor" = "退回医生";
+
+
+"sure to refuse takeover" = "您是否要退回接管";
+"sure to confirm takeover" = "您是否要接管";
+
+"you are confirm the trusteeship" = "您已成功接受该托管";
+"you are refuse the trusteeship" = "您已退回该托管";
+
+
+/* My Message Section */
+"Approve Result" = "资料变更";
+"System Bulletin" = "系统公告";
+"Agent Message" = "客服消息";
+"Conversation List" = "最近联系人";
+
+"day" = "天";
+"today" = "今天";
+"tomorrow" = "明天";
+"yesterday" = "昨天";
+"beforeYesterday" = "前天";
+
+/* Member Center Section */
+"About app" = "关于我们";
+"Terms of service" = "服务条款";
+"Advice feed back" = "意见反馈";
+
+"Log out" = "退出登陆";
+
+"Hospital" = "医院";
+"Head portrait" = "头像";
+"Real name" = "真实姓名";
+"Sex" = "性别";
+"Date of birth" = "出生日期";
+"Level" = "级别";
+"Department" = "科室";
+"ID" = "ID";
+"Service Center" = "服务中心";
+"Skill territory" = "擅长领域";
+
+"Edit" = "编辑";
+
+"Submit" = "提交审批";
+"Loading Department Parameters" = "正在加载科室";
+
+
+
+"Thumbnail uploading" = "正在上传图片";
+
+
+"Upload Successful,save to change" = "头像已上传,提交审批后保存修改";
+"Data Updated" = "数据更新成功";
+"Upload succeed" = "上传成功";
+
+"Saving Data" = "保存数据中";
+
+"none department parameter" = "暂无科室资料";
+"none Service Center" = "暂无服务中心";
+
+"Your information is under review" = "   您的资料正在审核中,无法进行编辑修改";
+
+"input here" = "在此输入";
+"Please input your feed back" = "请输入您的反馈";
+
+
+"phone inconformity With Your account" = "该手机号与登陆手机号不一致";
+
+"Version" = "版本";
+
+
+"physician" = "医师";
+"director" = "主任";
+"professor" = "教授";
+
+
+"have not approve result" = "暂无审核结果";
+"have not system bulletin" = "暂无系统公告";
+
+"Enter Your Specialty" = "输入您的擅长领域";
+
+/* System Set Section */
+
+"Glucose unit" = "血糖单位";
+"Reset password" = "重设密码";
+"Reset telephone" = "重新绑定手机号";
+
+"Verification code has been sent" = "验证码已发送";
+
+"Authentication is successful" = "验证成功";
+
+"phoneNumber or password error" = "手机号和密码不匹配";
+
+"Reset successed, Please login again" = "重设密码成功，请重新登录";
+"PhoneNumber binding successed, Please login again" = "手机号绑定成功，请重新登录";
+
+
+
+/* Send Report */
+"Backup" = "备份";
+"Add" = "新增";
+"Send Advice To Your Patient" = "给您的病人发送建议..";
+"Choose photos" = "选择图片";
+
+"Device has no camera" = "该设备不支持拍照功能";
+"Report Title Length Must Less Than 40" = "报告标题不能多于40个字符";
+"Report Content's Length Must Less Than 2000" = "报告内容不能多于2000个字符";
+
+"Please Input The Report Title" = "请输入报告标题";
+"Please Input the Report Content" = "请输入报告内容";
+
+"Save Success" = "保存成功";
+"Backup Success" = "同步完成";
+"New Backup Time" =  "最新备份时间";
+
+"Report Model Is Not Greater Than 40" = "报告模板不能多于40个";
+"Sending Report.." = "正在发送报告..";
+
+
+"Send" = "发送";
+"Use" = "使用";
+"Complete" = "完成";
+
+"Send Report" = "发送报告";
+
+"Report Model" = "报告模板";
+"Report Detail" = "报告详情";
+"Add Report" = "新增报告";
+"Report History" = "历史报告";
+
+
+"Ascend" = "顺序排列";
+"Descend" = "倒序排列";
+
+
+
+

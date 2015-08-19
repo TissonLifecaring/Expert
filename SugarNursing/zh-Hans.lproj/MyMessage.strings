@@ -1,0 +1,15 @@
+
+/* Class = "IBUINavigationItem"; title = "My Message"; ObjectID = "4Ct-Gz-YFe"; */
+"4Ct-Gz-YFe.title" = "我的消息";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "AfW-Dy-fS0"; */
+"AfW-Dy-fS0.title" = "菜单";
+
+/* Class = "IBUILabel"; text = "16:12"; ObjectID = "TBc-Zm-62o"; */
+"TBc-Zm-62o.text" = "16:12";
+
+/* Class = "IBUILabel"; text = "系统公告"; ObjectID = "a61-b1-7RO"; */
+"a61-b1-7RO.text" = "系统公告";
+
+/* Class = "IBUILabel"; text = "我是消息详情我是消息详情我是消息详情我是消息详情我是消息详情我是消息详情"; ObjectID = "cFA-yR-65l"; */
+"cFA-yR-65l.text" = "我是消息详情我是消息详情我是消息详  情我是消息详情我是消息详情我是消息详情";

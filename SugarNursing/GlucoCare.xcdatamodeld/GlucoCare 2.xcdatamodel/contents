@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Advice" representedClassName="Advice" syncable="YES">
+        <attribute name="adviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="adviceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AgentMsg" representedClassName="AgentMsg" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noticeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Bulletin" representedClassName="Bulletin" syncable="YES">
+        <attribute name="bulletinId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="centerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ControlEffect" representedClassName="ControlEffect" syncable="YES">
+        <attribute name="conclusion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conclusionDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conclusionScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="effectList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="EffectList" inverseName="controlEffect" inverseEntity="EffectList" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="departmentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="introduction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seq" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DetectLog" representedClassName="DetectLog" syncable="YES">
+        <attribute name="dataSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hemoglobinef" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="insertSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selfSense" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serialNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="detectLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="Diet" representedClassName="Diet" syncable="YES">
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dietLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DietLog" inverseName="diet" inverseEntity="DietLog" syncable="YES"/>
+    </entity>
+    <entity name="DietLog" representedClassName="DietLog" syncable="YES">
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eatPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eatTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="diet" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Diet" inverseName="dietLog" inverseEntity="Diet" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="dietLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="Drug" representedClassName="Drug" syncable="YES">
+        <attribute name="dose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="drugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="drug" inverseEntity="DrugLog" syncable="YES"/>
+    </entity>
+    <entity name="DrugLog" representedClassName="DrugLog" syncable="YES">
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicineId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicinePeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicineTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="beforeMedicineList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Medicine" inverseName="beforeDrugLog" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="drug" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Drug" inverseName="drugLog" inverseEntity="Drug" syncable="YES"/>
+        <relationship name="medicineList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Medicine" inverseName="drugLog" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="nowMedicineList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Medicine" inverseName="nowDrugLog" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="drugLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="EffectList" representedClassName="EffectList" syncable="YES">
+        <attribute name="avg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="max" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="min" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overtopCount" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="controlEffect" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ControlEffect" inverseName="effectList" inverseEntity="ControlEffect" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseLog" representedClassName="ExerciseLog" syncable="YES">
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="exerciseLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="LoadedLog" representedClassName="LoadedLog" syncable="YES">
+        <attribute name="department" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patient" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceCenter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temporaryInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusExpt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusPatient" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userInfo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MediAttach" representedClassName="MediAttach" syncable="YES">
+        <attribute name="attachName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mediRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MediRecord" inverseName="mediAttach" inverseEntity="MediRecord" syncable="YES"/>
+    </entity>
+    <entity name="Medicine" representedClassName="Medicine" syncable="YES">
+        <attribute name="dose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="beforeDrugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="beforeMedicineList" inverseEntity="DrugLog" syncable="YES"/>
+        <relationship name="drugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="medicineList" inverseEntity="DrugLog" syncable="YES"/>
+        <relationship name="nowDrugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="nowMedicineList" inverseEntity="DrugLog" syncable="YES"/>
+    </entity>
+    <entity name="MediRecord" representedClassName="MediRecord" syncable="YES">
+        <attribute name="diagHosp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diagTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediHistId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediRecord" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="treatMent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="treatPlan" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mediAttach" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="MediAttach" inverseName="mediRecord" inverseEntity="MediAttach" syncable="YES"/>
+    </entity>
+    <entity name="MsgRemind" representedClassName="MsgRemind" syncable="YES">
+        <attribute name="hostingConfirmRemindCount" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="hostingRefuseRemindCount" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="messageAgentRemindCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="messageApproveRemindCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="messageBulletinRemindCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="takeoverWaittingRemindCount" optional="YES" attributeType="Integer 16" syncable="YES"/>
+    </entity>
+    <entity name="Notice" representedClassName="Notice" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noticeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notTubeExptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notTubeExptName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientStat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servBeginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servRelation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusteeFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PatientInfo" representedClassName="PatientInfo" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allergDrug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allergFood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="centerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifyCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobileZone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickFood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateStaff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RecordLog" representedClassName="RecordLog" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="detectLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectLog" inverseName="recordLog" inverseEntity="DetectLog" syncable="YES"/>
+        <relationship name="dietLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DietLog" inverseName="recordLog" inverseEntity="DietLog" syncable="YES"/>
+        <relationship name="drugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="recordLog" inverseEntity="DrugLog" syncable="YES"/>
+        <relationship name="exerciseLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseLog" inverseName="recordLog" inverseEntity="ExerciseLog" syncable="YES"/>
+    </entity>
+    <entity name="ServCenter" representedClassName="ServCenter" syncable="YES">
+        <attribute name="centerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="centerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seq" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Takeover" representedClassName="Takeover" syncable="YES">
+        <attribute name="apprTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManBirthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManSex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queryFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqtExptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqtExptName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqtId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqtTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusBeginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusEndTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TemporaryInfo" representedClassName="TemporaryInfo" syncable="YES">
+        <attribute name="areaId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="centerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departmentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expertLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headimageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hospital" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifyCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="intro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registerTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skilled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TrusExpt" representedClassName="TrusExpt" syncable="YES">
+        <attribute name="departmentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TrusPatient" representedClassName="TrusPatient" syncable="YES">
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManBirthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManHeadImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManMobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManServLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManSex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queryFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servBeginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servRelation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusBeginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusteeFlag" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Trusteeship" representedClassName="Trusteeship" syncable="YES">
+        <attribute name="apprTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManBirthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManSex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkManUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queryFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqtId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqtTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusBeginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusExptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trusExptName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="areaId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="centerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departmentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expertLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headimageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hospital" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifyCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="intro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobileZone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registerTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skilled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Advice" positionX="-216" positionY="162" width="128" height="120"/>
+        <element name="AgentMsg" positionX="-207" positionY="171" width="128" height="193"/>
+        <element name="Bulletin" positionX="-216" positionY="162" width="128" height="195"/>
+        <element name="ControlEffect" positionX="-189" positionY="189" width="128" height="133"/>
+        <element name="Department" positionX="0" positionY="180" width="128" height="118"/>
+        <element name="DetectLog" positionX="-180" positionY="198" width="128" height="270"/>
+        <element name="Diet" positionX="-216" positionY="162" width="128" height="133"/>
+        <element name="DietLog" positionX="-207" positionY="171" width="128" height="165"/>
+        <element name="Drug" positionX="-207" positionY="171" width="128" height="133"/>
+        <element name="DrugLog" positionX="-198" positionY="180" width="128" height="195"/>
+        <element name="EffectList" positionX="-180" positionY="198" width="128" height="148"/>
+        <element name="ExerciseLog" positionX="-189" positionY="189" width="128" height="165"/>
+        <element name="LoadedLog" positionX="-216" positionY="162" width="128" height="150"/>
+        <element name="MediAttach" positionX="-216" positionY="162" width="128" height="90"/>
+        <element name="Medicine" positionX="-216" positionY="162" width="128" height="165"/>
+        <element name="MediRecord" positionX="-198" positionY="63" width="128" height="180"/>
+        <element name="MsgRemind" positionX="-216" positionY="162" width="128" height="133"/>
+        <element name="Notice" positionX="-207" positionY="171" width="128" height="195"/>
+        <element name="Patient" positionX="-423" positionY="14" width="128" height="255"/>
+        <element name="PatientInfo" positionX="-216" positionY="162" width="128" height="375"/>
+        <element name="RecordLog" positionX="-216" positionY="162" width="128" height="165"/>
+        <element name="ServCenter" positionX="-216" positionY="162" width="128" height="105"/>
+        <element name="Takeover" positionX="-198" positionY="180" width="128" height="223"/>
+        <element name="TemporaryInfo" positionX="-171" positionY="207" width="128" height="328"/>
+        <element name="TrusExpt" positionX="-216" positionY="162" width="128" height="103"/>
+        <element name="TrusPatient" positionX="-207" positionY="171" width="128" height="283"/>
+        <element name="Trusteeship" positionX="-207" positionY="171" width="128" height="225"/>
+        <element name="User" positionX="243" positionY="44" width="128" height="118"/>
+        <element name="UserInfo" positionX="-155" positionY="332" width="128" height="345"/>
+    </elements>
+</model>

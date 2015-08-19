@@ -1,0 +1,417 @@
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "0PL-DS-FEz"; */
+"0PL-DS-FEz.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "评估周期"; ObjectID = "0Uv-4n-lcx"; */
+"0Uv-4n-lcx.text" = "评估周期";
+
+/* Class = "IBUILabel"; text = "Other Facility's Glu"; ObjectID = "1Fs-tr-IzX"; */
+"1Fs-tr-IzX.text" = "检测";
+
+/* Class = "IBUILabel"; text = "无"; ObjectID = "1O4-fM-ogM"; */
+"1O4-fM-ogM.text" = "无";
+
+/* Class = "IBUILabel"; text = "13/12/04"; ObjectID = "1kk-9l-ukQ"; */
+"1kk-9l-ukQ.text" = "13/12/04";
+
+/* Class = "IBUILabel"; text = "Maximum Value"; ObjectID = "2TE-Wy-QbK"; */
+"2TE-Wy-QbK.text" = "最低值";
+
+/* Class = "IBUILabel"; text = "14/12/03 16:01"; ObjectID = "2Tz-fP-T9p"; */
+"2Tz-fP-T9p.text" = "14/12/03 16:01";
+
+/* Class = "IBUIBarButtonItem"; title = "Send Advice"; ObjectID = "2wK-Bx-uby"; */
+"2wK-Bx-uby.title" = "发送建议";
+
+/* Class = "IBUILabel"; text = "检测次数 7"; ObjectID = "3Al-9j-ncG"; */
+"3Al-9j-ncG.text" = "检测次数 7";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "3Sr-Fv-VKr"; */
+"3Sr-Fv-VKr.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "超标次数 2"; ObjectID = "3ev-p7-Fy9"; */
+"3ev-p7-Fy9.text" = "超标次数 2";
+
+/* Class = "IBUILabel"; text = "Choose the option to show"; ObjectID = "4Pe-rK-Tjf"; */
+"4Pe-rK-Tjf.text" = "选择需要查看的类别";
+
+/* Class = "IBUILabel"; text = "糖化血红蛋白"; ObjectID = "4sP-7M-Vdq"; */
+"4sP-7M-Vdq.text" = "糖化血红蛋白";
+
+/* Class = "IBUIButton"; normalTitle = "Filtrate"; ObjectID = "50L-4H-Nz5"; */
+"50L-4H-Nz5.normalTitle" = "筛选";
+
+/* Class = "IBUILabel"; text = "超标次数 2"; ObjectID = "5qh-NL-Rnb"; */
+"5qh-NL-Rnb.text" = "超标次数 2";
+
+/* Class = "IBUINavigationItem"; title = "Recovery Log"; ObjectID = "6vW-Vh-yn7"; */
+"6vW-Vh-yn7.title" = "康复日志";
+
+/* Class = "IBUILabel"; text = "接管中~"; ObjectID = "7KB-ci-Vgr"; */
+"7KB-ci-Vgr.text" = "接管中~";
+
+/* Class = "IBUILabel"; text = "用药改变"; ObjectID = "AgD-l1-vSj"; */
+"AgD-l1-vSj.text" = "用药改变";
+
+/* Class = "IBUILabel"; text = "G1       最高值    7.5              最低值    2.3"; ObjectID = "B16-BL-RR0"; */
+"B16-BL-RR0.text" = "G1       最高值    7.5              最低值    2.3";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "Bxn-6u-il1"; */
+"Bxn-6u-il1.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "G3       最高值    7.5              最低值    2.3"; ObjectID = "CwH-fa-ka4"; */
+"CwH-fa-ka4.text" = "G3       最高值    7.5              最低值    2.3";
+
+/* Class = "IBUILabel"; text = "diet"; ObjectID = "DGF-av-Nb3"; */
+"DGF-av-Nb3.text" = "饮食";
+
+/* Class = "IBUITabBarItem"; title = "Medical History"; ObjectID = "EbV-De-BnO"; */
+"EbV-De-BnO.title" = "检测数据";
+
+/* Class = "IBUIButton"; normalTitle = "By Date"; ObjectID = "F6b-AQ-uUw"; */
+"F6b-AQ-uUw.normalTitle" = "选择日期";
+
+/* Class = "IBUILabel"; text = "6.7mmol/L 其他设备"; ObjectID = "G5O-Mt-wzn"; */
+"G5O-Mt-wzn.text" = "6.7mmol/L 其他设备";
+
+/* Class = "IBUILabel"; text = "超标次数 2"; ObjectID = "GGS-bE-xgt"; */
+"GGS-bE-xgt.text" = "超标次数 2";
+
+/* Class = "IBUILabel"; text = "Hello world"; ObjectID = "Gy9-nu-M4b"; */
+"Gy9-nu-M4b.text" = "Hello world";
+
+/* Class = "IBUILabel"; text = "克里斯多缴费了快速的减肥类似的会计法律上看到对了开考试的减肥了快速的减肥了快速的"; ObjectID = "HSL-Yk-Ytz"; */
+"HSL-Yk-Ytz.text" = "克里斯多缴费了快速的减肥类似的会计法律上看到对了开考试的减肥了快速的减肥了快速的";
+
+/* Class = "IBUIButton"; normalTitle = "Confirm"; ObjectID = "IE8-hC-em6"; */
+"IE8-hC-em6.normalTitle" = "确定";
+
+/* Class = "IBUILabel"; text = "检测次数 7"; ObjectID = "IMf-at-rmi"; */
+"IMf-at-rmi.text" = "检测次数 7";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "JCY-6h-nDb"; */
+"JCY-6h-nDb.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "现用药"; ObjectID = "KBp-4w-gQI"; */
+"KBp-4w-gQI.text" = "现用药";
+
+/* Class = "IBUILabel"; text = "Glu"; ObjectID = "KOa-Ln-Rhi"; */
+"KOa-Ln-Rhi.text" = "Glu";
+
+/* Class = "IBUITabBarItem"; title = "Test Result"; ObjectID = "L35-m4-LKw"; */
+"L35-m4-LKw.title" = "控糖成效";
+
+/* Class = "IBUITabBarItem"; title = "Recovery Log"; ObjectID = "IEh-DR-4ir"; */
+"IEh-DR-4ir.title" = "康复日志";
+
+/* Class = "IBUITabBarItem"; title = "Medical Record"; ObjectID = "Qbw-Vy-3BS"; */
+"Qbw-Vy-3BS.title" = "既往病史";
+
+/* Class = "IBUILabel"; text = "超标次数 2"; ObjectID = "LBc-HP-Rdu"; */
+"LBc-HP-Rdu.text" = "超标次数 2";
+
+/* Class = "IBUILabel"; text = "Test times"; ObjectID = "LWf-fe-Xbk"; */
+"LWf-fe-Xbk.text" = "Test times";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "Lyz-xJ-vBb"; */
+"Lyz-xJ-vBb.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "平均值 4.8"; ObjectID = "M6B-bO-HTi"; */
+"M6B-bO-HTi.text" = "平均值 4.8";
+
+/* Class = "IBUILabel"; text = "曾用药"; ObjectID = "M8r-Vj-iUu"; */
+"M8r-Vj-iUu.text" = "曾用药";
+
+/* Class = "IBUILabel"; text = "王小虎"; ObjectID = "MoL-Oi-Lqs"; */
+"MoL-Oi-Lqs.text" = "王小虎";
+
+/* Class = "IBUILabel"; text = "2014-12-10 14:00"; ObjectID = "NTJ-xn-d3Y"; */
+"NTJ-xn-d3Y.text" = "2014-12-10 14:00";
+
+/* Class = "IBUILabel"; text = "患者2009年8月因妇科炎症服用“金刚藤胶囊”色黄，体重无明显变化。"; ObjectID = "Nqc-w5-heL"; */
+"Nqc-w5-heL.text" = "患者2009年8月因妇科炎症服用“金刚藤胶囊”色黄，体重无明显变化。";
+
+/* Class = "IBUILabel"; text = "2014-10-15 20:45"; ObjectID = "O76-t5-9K6"; */
+"O76-t5-9K6.text" = "2014-10-15 20:45";
+
+/* Class = "IBUILabel"; text = "35岁"; ObjectID = "ObL-hb-yyO"; */
+"ObL-hb-yyO.text" = "35岁";
+
+/* Class = "IBUILabel"; text = "GlucoCare Glu"; ObjectID = "Oii-50-Gsv"; */
+"Oii-50-Gsv.text" = "饮食";
+
+
+/* Class = "UILabel"; text = "Hospital"; ObjectID = "42K-9u-QO6"; */
+"42K-9u-QO6.text" = "确诊医院";
+
+
+
+/* Class = "IBUINavigationItem"; title = "Control Effect"; ObjectID = "sFu-fz-Nu8"; */
+"sFu-fz-Nu8.title" = "控糖成效";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "PqJ-QJ-jHa"; */
+"PqJ-QJ-jHa.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "History"; ObjectID = "g0F-b6-Ccw"; */
+"g0F-b6-Ccw.text" = "病历资料";
+
+/* Class = "IBUILabel"; text = "餐后血糖波动"; ObjectID = "QhW-Lv-gN7"; */
+"QhW-Lv-gN7.text" = "餐后血糖波动";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "R50-LD-KCB"; */
+"R50-LD-KCB.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "Rge-Nk-053"; */
+"Rge-Nk-053.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "糖化血红蛋白"; ObjectID = "Rng-Bn-Mdi"; */
+"Rng-Bn-Mdi.text" = "糖化血红蛋白";
+
+/* Class = "IBUILabel"; text = "平均值 4.8"; ObjectID = "Ruy-mO-Y0k"; */
+"Ruy-mO-Y0k.text" = "平均值 4.8";
+
+/* Class = "IBUILabel"; text = "餐后血糖"; ObjectID = "S6s-Qb-rBD"; */
+"S6s-Qb-rBD.text" = "餐后血糖";
+
+/* Class = "IBUILabel"; text = "Minimum Value"; ObjectID = "S78-tc-yWQ"; */
+"S78-tc-yWQ.text" = "最低值";
+
+/* Class = "IBUILabel"; text = "Medications"; ObjectID = "SVE-CZ-7EO"; */
+"SVE-CZ-7EO.text" = "运动";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "TUb-XW-nrj"; */
+"TUb-XW-nrj.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "V2B-5C-LFb"; */
+"V2B-5C-LFb.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "GlucoCare HbA1c"; ObjectID = "W03-io-hIY"; */
+"W03-io-hIY.text" = "运动";
+
+/* Class = "IBUILabel"; text = "平均值 4.8"; ObjectID = "WGa-Tx-fHa"; */
+"WGa-Tx-fHa.text" = "平均值 4.8";
+
+
+/* Class = "UILabel"; text = "Cure State"; ObjectID = "rJv-b8-hbr"; */
+"rJv-b8-hbr.text" = "治疗状况";
+
+/* Class = "IBUILabel"; text = "Message Log"; ObjectID = "Wh3-uz-7Kq"; */
+"Wh3-uz-7Kq.text" = "历史留言";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "XKW-ut-Md7"; */
+"XKW-ut-Md7.text" = "Label";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "Z3O-jY-em4"; */
+"Z3O-jY-em4.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "a67-Tq-gdM"; */
+"a67-Tq-gdM.text" = "最高值 7.5";
+
+/* Class = "IBUILabel"; text = "Exercise"; ObjectID = "aO7-kN-9uc"; */
+"aO7-kN-9uc.text" = "运动";
+
+/* Class = "IBUILabel"; text = "低"; ObjectID = "aUf-hB-t93"; */
+"aUf-hB-t93.text" = "低";
+
+/* Class = "IBUILabel"; text = "Send Patients Advice:"; ObjectID = "aeP-z7-qGH"; */
+"aeP-z7-qGH.text" = "Send Patients Advice:";
+
+/* Class = "IBUILabel"; text = "空腹血糖波动"; ObjectID = "axo-wr-qiX"; */
+"axo-wr-qiX.text" = "空腹血糖波动";
+
+/* Class = "IBUILabel"; text = "Average Value"; ObjectID = "b10-KI-ctI"; */
+"b10-KI-ctI.text" = "平均值";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "bLp-It-Yca"; */
+"bLp-It-Yca.normalTitle" = "确定";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "bms-1f-RH0"; */
+"bms-1f-RH0.title" = "菜单";
+
+/* Class = "IBUILabel"; text = "空腹血糖"; ObjectID = "bvm-0H-NaB"; */
+"bvm-0H-NaB.text" = "空腹血糖";
+
+/* Class = "IBUILabel"; text = "平均值 4.8"; ObjectID = "cE4-jv-JUh"; */
+"cE4-jv-JUh.text" = "平均值 4.8";
+
+/* Class = "IBUINavigationItem"; title = "Send Advice"; ObjectID = "cEf-0q-bke"; */
+"cEf-0q-bke.title" = "发送建议";
+
+/* Class = "IBUILabel"; text = "思思"; ObjectID = "ck4-vN-mx9"; */
+"ck4-vN-mx9.text" = "思思";
+
+/* Class = "IBUILabel"; text = "FBG"; ObjectID = "dVB-ih-lJw"; */
+"dVB-ih-lJw.text" = "FBG";
+
+/* Class = "IBUILabel"; text = "超标次数 2"; ObjectID = "eAo-7K-eq6"; */
+"eAo-7K-eq6.text" = "超标次数 2";
+
+/* Class = "IBUILabel"; text = "平均值 4.8"; ObjectID = "eu3-qK-4Jk"; */
+"eu3-qK-4Jk.text" = "平均值 4.8";
+
+/* Class = "IBUILabel"; text = "平均值 4.8"; ObjectID = "fAY-f6-xPS"; */
+"fAY-f6-xPS.text" = "平均值 4.8";
+
+/* Class = "IBUILabel"; text = "The days away from writing the report"; ObjectID = "foX-CX-jkz"; */
+"foX-CX-jkz.text" = "离下次出报告还有";
+
+/* Class = "IBUIButton"; normalTitle = "Recovery Log"; ObjectID = "g1H-bS-sLd"; */
+"g1H-bS-sLd.normalTitle" = "康复日志";
+
+/* Class = "IBUILabel"; text = "广州xx医院"; ObjectID = "gON-6g-Kpi"; */
+"gON-6g-Kpi.text" = "广州xx医院";
+
+/* Class = "IBUILabel"; text = "45岁"; ObjectID = "gPW-nI-fOX"; */
+"gPW-nI-fOX.text" = "45岁";
+
+/* Class = "IBUILabel"; text = "G1       最高值    7.5              最低值    2.3"; ObjectID = "h6m-zm-V1f"; */
+"h6m-zm-V1f.text" = "G1       最高值    7.5              最低值    2.3";
+
+/* Class = "IBUILabel"; text = "超标次数 2"; ObjectID = "hrY-qy-Yqg"; */
+"hrY-qy-Yqg.text" = "超标次数 2";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "iHm-UT-Epm"; */
+"iHm-UT-Epm.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "Hello world"; ObjectID = "idB-5b-C9H"; */
+"idB-5b-C9H.text" = "Hello world";
+
+/* Class = "IBUILabel"; text = "评估周期"; ObjectID = "ir8-c7-X1U"; */
+"ir8-c7-X1U.text" = "评估周期";
+
+/* Class = "IBUILabel"; text = "服药时间"; ObjectID = "jia-78-DXs"; */
+"jia-78-DXs.text" = "服药时间";
+
+/* Class = "IBUILabel"; text = "餐后血糖波动"; ObjectID = "jis-H2-MbS"; */
+"jis-H2-MbS.text" = "餐后血糖波动";
+
+/* Class = "IBUILabel"; text = "Curative Effect Evaluation"; ObjectID = "jsX-zR-CSG"; */
+"jsX-zR-CSG.text" = "Curative Effect Evaluation";
+
+/* Class = "IBUILabel"; text = "Exceeding times"; ObjectID = "kz7-Md-0bW"; */
+"kz7-Md-0bW.text" = "Exceeding times";
+
+/* Class = "IBUIButton"; normalTitle = "控糖成效"; ObjectID = "lrW-jM-vlz"; */
+"lrW-jM-vlz.normalTitle" = "既往病史";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "m2g-Dm-yZ2"; */
+"m2g-Dm-yZ2.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "女"; ObjectID = "m7z-ID-VXP"; */
+"m7z-ID-VXP.text" = "女";
+
+/* Class = "IBUILabel"; text = "检测次数 7"; ObjectID = "mDS-RM-y2I"; */
+"mDS-RM-y2I.text" = "检测次数 7";
+
+/* Class = "IBUILabel"; text = "女"; ObjectID = "mY4-Vd-gDC"; */
+"mY4-Vd-gDC.text" = "女";
+
+/* Class = "IBUISegmentedControl"; n7P-XW-ulg.segmentTitles[0] = "BloodSugar"; ObjectID = "n7P-XW-ulg"; */
+"n7P-XW-ulg.segmentTitles[0]" = "Glu";
+
+/* Class = "IBUISegmentedControl"; n7P-XW-ulg.segmentTitles[1] = "GHBALC"; ObjectID = "n7P-XW-ulg"; */
+"n7P-XW-ulg.segmentTitles[1]" = "HbA1c";
+
+/* Class = "IBUILabel"; text = "空腹血糖波动"; ObjectID = "n9i-Xa-n1A"; */
+"n9i-Xa-n1A.text" = "空腹血糖波动";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "nDg-Bt-P9q"; */
+"nDg-Bt-P9q.text" = "最低值 3.9";
+
+/* Class = "IBUILabel"; text = "Other Facility's HbA1c"; ObjectID = "oGw-qF-KYm"; */
+"oGw-qF-KYm.text" = "用药";
+
+/* Class = "IBUILabel"; text = "检测次数 7"; ObjectID = "ocs-eY-PgW"; */
+"ocs-eY-PgW.text" = "检测次数 7";
+
+/* Class = "IBUILabel"; text = "检测次数 7"; ObjectID = "pU1-B9-Is4"; */
+"pU1-B9-Is4.text" = "检测次数 7";
+
+/* Class = "IBUILabel"; text = "餐后血糖"; ObjectID = "pe8-5v-eyh"; */
+"pe8-5v-eyh.text" = "餐后血糖";
+
+/* Class = "IBUILabel"; text = "高"; ObjectID = "qBc-QY-caS"; */
+"qBc-QY-caS.text" = "高";
+
+/* Class = "IBUILabel"; text = "最高值 7.5"; ObjectID = "r6f-Lg-CXf"; */
+"r6f-Lg-CXf.text" = "最高值 7.5";
+
+/* Class = "UILabel"; text = "Scheme"; ObjectID = "LQ0-h6-wku"; */
+"LQ0-h6-wku.text" = "治疗方案";
+
+/* Class = "IBUILabel"; text = "空腹血糖"; ObjectID = "rD1-Zj-3K3"; */
+"rD1-Zj-3K3.text" = "空腹血糖";
+
+/* Class = "IBUIButton"; normalTitle = "Refresh"; ObjectID = "rSu-Ln-df3"; */
+"rSu-Ln-df3.normalTitle" = "刷新";
+
+/* Class = "IBUILabel"; text = "Service Level:"; ObjectID = "rmh-O8-PSx"; */
+"rmh-O8-PSx.text" = "服务等级:";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "s1R-S8-mO9"; */
+"s1R-S8-mO9.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "治疗中"; ObjectID = "s9y-XZ-XgZ"; */
+"s9y-XZ-XgZ.text" = "治疗中";
+
+
+/* Class = "IBUIButton"; normalTitle = "Choose Date"; ObjectID = "tpu-cm-Y53"; */
+"tpu-cm-Y53.normalTitle" = "选择日期";
+
+/* Class = "IBUILabel"; text = "最低值 3.9"; ObjectID = "uiL-vc-FID"; */
+"uiL-vc-FID.text" = "最低值 3.9";
+
+/* Class = "IBUINavigationItem"; title = "Single Patient"; ObjectID = "uuO-VU-xZS"; */
+"uuO-VU-xZS.title" = "病人详情";
+
+/* Class = "IBUILabel"; text = "Choose Period"; ObjectID = "vMo-yE-3EF"; */
+"vMo-yE-3EF.text" = "选择周期";
+
+/* Class = "IBUILabel"; text = "检测次数 7"; ObjectID = "wIN-pU-y2D"; */
+"wIN-pU-y2D.text" = "检测次数 7";
+
+/* Class = "IBUILabel"; text = "服务等级:"; ObjectID = "x5p-uK-sET"; */
+"x5p-uK-sET.text" = "服务等级:";
+
+/* Class = "IBUINavigationItem"; title = "My Patients"; ObjectID = "xep-gU-XHv"; */
+"xep-gU-XHv.title" = "我的病人";
+
+/* Class = "IBUIButton"; normalTitle = "Send"; ObjectID = "yud-SK-C6S"; */
+"yud-SK-C6S.normalTitle" = "发送";
+
+
+/* Class = "IBUILabel"; text = "Maximum Value"; ObjectID = "dbQ-d9-eIZ"; */
+"dbQ-d9-eIZ.text" = "最高值";
+
+/* Class = "IBUILabel"; text = "Minimum Value"; ObjectID = "fPE-Lw-vcH"; */
+"fPE-Lw-vcH.text" = "最低值";
+
+/* Class = "IBUILabel"; text = "Limosis Glucose Fluctuation\n"; ObjectID = "lgw-lV-OZX"; */
+"lgw-lV-OZX.text" = "空腹血糖波动";
+
+/* Class = "UINavigationItem"; title = "Medical Record"; ObjectID = "P9D-bI-4t8"; */
+"P9D-bI-4t8.title" = "既往病史";
+
+
+/* Class = "IBUILabel"; text = "Choose Period"; ObjectID = "vMo-yE-3EF"; */
+"47s-Bp-zFZ.text" = "选择周期";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "s1R-S8-mO9"; */
+"gW1-CR-tOM.text" = "近7天";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "s1R-S8-mO9"; */
+"c5A-4m-eE9.text" = "确定";
+
+
+
+/* Class = "IBUIButton"; normalTitle = "Send Message"; ObjectID = "m3A-AQ-nyI"; */
+"m3A-AQ-nyI.normalTitle" = "发送消息";
+
+
+"adX-5Z-FWS.normalTitle" = "取消";
+
+
+"YBZ-Vh-AVC.normalTitle" = "确定";
+
+
+

@@ -1,0 +1,43 @@
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "3h9-bg-9ya"; */
+"3h9-bg-9ya.normalTitle" = "確定";
+
+/* Class = "IBUINavigationItem"; title = "User Infomation"; ObjectID = "3iP-WV-SKB"; */
+"3iP-WV-SKB.title" = "用戶詳情";
+
+/* Class = "IBUINavigationItem"; title = "Member Center"; ObjectID = "6nu-rq-C8W"; */
+"6nu-rq-C8W.title" = "個人中心";
+
+/* Class = "IBUIButton"; normalTitle = "Female"; ObjectID = "8S6-Kp-Yd0"; */
+"8S6-Kp-Yd0.normalTitle" = "女";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "Dg3-dD-0Li"; */
+"Dg3-dD-0Li.title" = "菜單";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "N1w-MT-A73"; */
+"N1w-MT-A73.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "Male"; ObjectID = "PDD-qV-zx3"; */
+"PDD-qV-zx3.normalTitle" = "男";
+
+/* Class = "IBUINavigationItem"; title = "Advice Feed Back"; ObjectID = "SNl-tu-aw7"; */
+"SNl-tu-aw7.title" = "用戶反饋";
+
+/* Class = "IBUINavigationItem"; title = "About App"; ObjectID = "U3E-6d-PyX"; */
+"U3E-6d-PyX.title" = "關於我們";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "XGE-Zh-89Z"; */
+"XGE-Zh-89Z.normalTitle" = "確定";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "gQm-62-CZ0"; */
+"gQm-62-CZ0.normalTitle" = "取消";
+
+/* Class = "IBUIViewController"; title = "UserInfoViewController"; ObjectID = "iZs-Bc-9PV"; */
+"iZs-Bc-9PV.title" = "UserInfoViewController";
+
+/* Class = "IBUIButton"; normalTitle = "submit"; ObjectID = "tQM-vt-6im"; */
+"tQM-vt-6im.normalTitle" = "提交反饋";
+
+/* Class = "IBUINavigationItem"; title = "Terms Of Service"; ObjectID = "vzR-DS-cs2"; */
+"vzR-DS-cs2.title" = "服務條款";
+

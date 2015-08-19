@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O4l-V8-2OQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="bkc-MZ-Q5l">
+            <objects>
+                <navigationController storyboardIdentifier="MyTakeoverNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2NG-CE-z0C" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="0kz-LW-S55">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.17254901959999999" green="0.49019607840000001" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="O4l-V8-2OQ" kind="relationship" relationship="rootViewController" id="NoV-4y-4H8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gjv-jt-qOD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761" y="139"/>
+        </scene>
+        <!--Hosting/Takeover-->
+        <scene sceneID="p0g-go-VuH">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="O4l-V8-2OQ" customClass="MyTakeoverViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K1E-PR-lUL"/>
+                        <viewControllerLayoutGuide type="bottom" id="EaX-pP-nUg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3cM-um-Fon">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Igg-kg-GRE" customClass="RefreshTableView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="G9N-cf-6LY" userLabel="Footer View">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="O4l-V8-2OQ" id="08G-lb-4Su"/>
+                                    <outlet property="delegate" destination="O4l-V8-2OQ" id="h2S-zh-u32"/>
+                                </connections>
+                            </tableView>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fhB-du-1JN" customClass="RefreshTableView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="Ac9-sM-sCk" userLabel="Footer View">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="O4l-V8-2OQ" id="Nq4-Gt-iHg"/>
+                                    <outlet property="delegate" destination="O4l-V8-2OQ" id="MLy-LK-cCj"/>
+                                </connections>
+                            </tableView>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Gop-bb-i8j" customClass="RefreshTableView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="jxT-zH-avc" userLabel="Footer View">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="O4l-V8-2OQ" id="ol3-ky-h32"/>
+                                    <outlet property="delegate" destination="O4l-V8-2OQ" id="P6m-wM-huP"/>
+                                </connections>
+                            </tableView>
+                            <tableView clipsSubviews="YES" tag="102" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WCO-Kd-Tun" customClass="RefreshTableView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="u6t-h3-x2N" userLabel="Footer View">
+                                    <rect key="frame" x="0.0" y="152" width="600" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TakeoverStandby_Cell" rowHeight="130" id="EeW-wU-mwt" customClass="TakeoverStandby_Cell">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EeW-wU-mwt" id="ghO-4Z-hMB">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhT-cN-P74" customClass="DarkBorderButton">
+                                                    <rect key="frame" x="300" y="87" width="140" height="30"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="MqB-cr-wdN"/>
+                                                        <constraint firstAttribute="height" constant="30" id="mCZ-Zm-oC7"/>
+                                                    </constraints>
+                                                    <state key="normal" title="  Accept" image="Confirm">
+                                                        <color key="titleColor" red="0.0" green="0.67965898722627738" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="acceptTakeoverButtonEvent:" destination="EeW-wU-mwt" eventType="touchUpInside" id="RnU-aG-f0b"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="576" translatesAutoresizingMaskIntoConstraints="NO" id="9ho-V2-weJ" customClass="LinesLabel">
+                                                    <rect key="frame" x="16" y="13" width="576" height="69"/>
+                                                    <string key="text">医生王大虎于2012年1月1日12:13把病人王小虎（女 45岁）托管给我，预计托管时间:13/12/03至14/12/12ddddddddddddddddddddddddddddddd福克斯的解放路口就是离开房间收到了科技ddd两点上课就分了SD卡解放路口圣诞节了深刻的房间里的开始放假了SD卡分局领导说开房记录的思考几分两点开始减肥</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNp-tB-iIp" customClass="DarkBorderButton">
+                                                    <rect key="frame" x="160" y="87" width="140" height="30"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="TAY-tL-XHp"/>
+                                                        <constraint firstAttribute="width" constant="140" id="wTm-mr-0YF"/>
+                                                    </constraints>
+                                                    <state key="normal" title="  Refuse" image="Refuse">
+                                                        <color key="titleColor" red="1" green="0.100393671" blue="0.31890950709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="refuseTakeoverButtonEvent:" destination="EeW-wU-mwt" eventType="touchUpInside" id="wy3-xR-yz3"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vhT-cN-P74" firstAttribute="top" secondItem="9ho-V2-weJ" secondAttribute="bottom" constant="5" id="39A-Kb-PPn"/>
+                                                <constraint firstItem="9ho-V2-weJ" firstAttribute="top" secondItem="ghO-4Z-hMB" secondAttribute="topMargin" constant="5" id="O9W-d2-3HL"/>
+                                                <constraint firstItem="vhT-cN-P74" firstAttribute="leading" secondItem="HNp-tB-iIp" secondAttribute="trailing" id="UPp-Z4-FI0"/>
+                                                <constraint firstItem="9ho-V2-weJ" firstAttribute="leading" secondItem="ghO-4Z-hMB" secondAttribute="leading" constant="16" id="V1v-eL-Yo2"/>
+                                                <constraint firstAttribute="centerX" secondItem="vhT-cN-P74" secondAttribute="centerX" constant="-70" id="V7p-dv-PtR"/>
+                                                <constraint firstItem="vhT-cN-P74" firstAttribute="centerY" secondItem="HNp-tB-iIp" secondAttribute="centerY" id="fdv-8i-KoT"/>
+                                                <constraint firstAttribute="trailing" secondItem="9ho-V2-weJ" secondAttribute="trailing" constant="8" id="mBe-pb-xCB"/>
+                                                <constraint firstAttribute="bottom" secondItem="vhT-cN-P74" secondAttribute="bottom" constant="12" id="wch-25-bVo"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contentLabel" destination="9ho-V2-weJ" id="ufk-4y-7Ma"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="O4l-V8-2OQ" id="cLR-Cd-W1v"/>
+                                    <outlet property="delegate" destination="O4l-V8-2OQ" id="RTd-QU-1dw"/>
+                                </connections>
+                            </tableView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-E2-tET">
+                                <rect key="frame" x="0.0" y="487" width="600" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="wait" image="wait_no" id="neb-Fz-vSt"/>
+                                    <tabBarItem title="confirm" image="confirm_no" id="jhQ-Ec-xxq"/>
+                                    <tabBarItem title="refuse" image="refuse_no" id="jbZ-4e-lLw"/>
+                                    <tabBarItem title="over" image="over_no" id="ERf-bW-ZXr"/>
+                                </items>
+                                <connections>
+                                    <outlet property="delegate" destination="O4l-V8-2OQ" id="cJR-7f-D4R"/>
+                                </connections>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Igg-kg-GRE" firstAttribute="leading" secondItem="3cM-um-Fon" secondAttribute="leading" id="3BW-O3-nNA"/>
+                            <constraint firstItem="WCO-Kd-Tun" firstAttribute="top" secondItem="3cM-um-Fon" secondAttribute="top" id="95y-sI-jk2"/>
+                            <constraint firstItem="b6H-E2-tET" firstAttribute="top" secondItem="Igg-kg-GRE" secondAttribute="bottom" id="Hoy-Ju-gez"/>
+                            <constraint firstItem="EaX-pP-nUg" firstAttribute="top" secondItem="b6H-E2-tET" secondAttribute="bottom" id="Jg9-rp-SJm"/>
+                            <constraint firstItem="fhB-du-1JN" firstAttribute="top" secondItem="K1E-PR-lUL" secondAttribute="bottom" id="K1E-33-zcn"/>
+                            <constraint firstItem="Igg-kg-GRE" firstAttribute="top" secondItem="K1E-PR-lUL" secondAttribute="bottom" id="L5i-vi-1y1"/>
+                            <constraint firstAttribute="trailing" secondItem="Gop-bb-i8j" secondAttribute="trailing" id="Nei-WW-bcJ"/>
+                            <constraint firstItem="b6H-E2-tET" firstAttribute="leading" secondItem="3cM-um-Fon" secondAttribute="leading" id="PQA-B5-FNL"/>
+                            <constraint firstAttribute="trailing" secondItem="fhB-du-1JN" secondAttribute="trailing" id="Sy7-rG-Vsg"/>
+                            <constraint firstItem="b6H-E2-tET" firstAttribute="top" secondItem="fhB-du-1JN" secondAttribute="bottom" id="TBt-4H-8Ur"/>
+                            <constraint firstAttribute="trailing" secondItem="Igg-kg-GRE" secondAttribute="trailing" id="Utx-tZ-8eN"/>
+                            <constraint firstItem="b6H-E2-tET" firstAttribute="top" secondItem="WCO-Kd-Tun" secondAttribute="bottom" id="V0H-4m-egU"/>
+                            <constraint firstAttribute="trailing" secondItem="b6H-E2-tET" secondAttribute="trailing" id="YUS-h5-bCX"/>
+                            <constraint firstItem="Gop-bb-i8j" firstAttribute="leading" secondItem="3cM-um-Fon" secondAttribute="leading" id="YyV-J3-kIp"/>
+                            <constraint firstItem="fhB-du-1JN" firstAttribute="leading" secondItem="3cM-um-Fon" secondAttribute="leading" id="bnc-xC-qQg"/>
+                            <constraint firstAttribute="trailing" secondItem="WCO-Kd-Tun" secondAttribute="trailing" id="ezI-dG-KJJ"/>
+                            <constraint firstItem="Gop-bb-i8j" firstAttribute="top" secondItem="K1E-PR-lUL" secondAttribute="bottom" id="jMo-as-xHM"/>
+                            <constraint firstItem="b6H-E2-tET" firstAttribute="top" secondItem="Gop-bb-i8j" secondAttribute="bottom" id="wV1-Mi-fR3"/>
+                            <constraint firstItem="WCO-Kd-Tun" firstAttribute="leading" secondItem="3cM-um-Fon" secondAttribute="leading" id="wZc-E2-5Ca"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Hosting/Takeover" id="DaG-ha-cih"/>
+                    <connections>
+                        <outlet property="myTabBar" destination="b6H-E2-tET" id="uej-o7-6DD"/>
+                        <outlet property="tableViewConfirm" destination="Gop-bb-i8j" id="qVu-Jx-7tN"/>
+                        <outlet property="tableViewOver" destination="Igg-kg-GRE" id="8ic-ur-vdA"/>
+                        <outlet property="tableViewRefuse" destination="fhB-du-1JN" id="n9z-Vr-bhB"/>
+                        <outlet property="tableViewWaitting" destination="WCO-Kd-Tun" id="qUW-Pi-T4g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Xf-9Y-IDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1573" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Confirm" width="18" height="18"/>
+        <image name="Refuse" width="18" height="18"/>
+        <image name="confirm_no" width="30" height="30"/>
+        <image name="over_no" width="30" height="30"/>
+        <image name="refuse_no" width="30" height="30"/>
+        <image name="wait_no" width="30" height="30"/>
+    </resources>
+</document>

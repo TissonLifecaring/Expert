@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BEMSimpleLineGraph (3.2)
+  - CocoaLumberjack (2.0.0-rc):
+    - CocoaLumberjack/Default (= 2.0.0-rc)
+    - CocoaLumberjack/Extensions (= 2.0.0-rc)
+  - CocoaLumberjack/Core (2.0.0-rc)
+  - CocoaLumberjack/Default (2.0.0-rc):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-rc):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.3.1)
+  - MBProgressHUD (0.9)
+  - MWPhotoBrowser (1.4.1):
+    - DACircularProgress
+    - MBProgressHUD (~> 0.8)
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.7)
+  - PSTCollectionView (1.2.3)
+  - REMenu (1.10)
+  - RESideMenu (4.0.7)
+  - RMDateSelectionViewController (1.4.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SSPullToRefresh (1.2.2)
+  - UMengAnalytics-NO-IDFA (3.1.11)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.5.1)
+  - BEMSimpleLineGraph (= 3.2)
+  - CocoaLumberjack (= 2.0.0-rc)
+  - MBProgressHUD (= 0.9)
+  - MWPhotoBrowser (~> 1.4.1)
+  - REMenu (= 1.10)
+  - RESideMenu (= 4.0.7)
+  - RMDateSelectionViewController (= 1.4.2)
+  - SSPullToRefresh (= 1.2.2)
+  - UMengAnalytics-NO-IDFA (~> 3.1.11)
+
+SPEC CHECKSUMS:
+  AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
+  BEMSimpleLineGraph: 25676aef045e470b04ea0534e18a9c87c32a9cdf
+  CocoaLumberjack: 04c5b9b7479dd4276a09700fcd6644423ea1751c
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  MWPhotoBrowser: 2531e682860d62b8a7ba8659de02eb9040e431e5
+  PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
+  REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  RMDateSelectionViewController: 5e5f67ce2e1389ac70fa27ee29cc8dd2f5f93bbf
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SSPullToRefresh: 699d592f8e4264edc36b20b49d60f25eeb5fb77d
+  UMengAnalytics-NO-IDFA: 113fee70a03af45c89b60b8f5b15cf1accfebeab
+
+COCOAPODS: 0.35.0

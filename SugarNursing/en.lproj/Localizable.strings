@@ -1,0 +1,457 @@
+/* 
+  Localizable.strings
+  SugarNursing
+
+  Created by Dan on 14-11-5.
+  Copyright (c) 2014年 Tisson. All rights reserved.
+*/
+
+
+"glucose" = "Blood Glucose";
+"hemoglobin" = "HbA1c";
+
+/* Network */
+"Request Error" = "Request Error";
+"Fallback Error Failure Reason Format" = "Fail to connect Internet";
+"Cannot connect to the internet." = "Fail to connect Internet";
+"Cannot connect to specified host." = "Fail to connect Internet";
+"Cannot find specified host." = "Fail to connect Internet";
+
+"Server is busy" = "Server is busy";
+
+/* Basic */
+"New Version" = "Find new version";
+"Skip" = "Ignore";
+"Go to Store" = "Update";
+"It's the newest version" = "Latest version";
+"Find the new Version" = "Find new version";
+
+"Cancel" = "Cancel";
+"Confirm" = "OK";
+
+"warm prompt" = "Warm prompt";
+"Can't be late for today" = "Can't be late for today";
+"Save" = "Save";
+
+/* hub */
+"loading.." = "loading..";
+"Login.." = "Logging in..";
+"Logout.." = "Logging out..";
+"Error" = "Error";
+"Dismiss" = "Dismiss";
+
+
+"Release to refresh…" = "Release to refresh…";
+"Pull down to refresh…" = "Pull down to refresh…";
+
+/* Left Menu */
+"Home" = "Home";
+"My Patient" = "My Patient";
+"My Hosting" = "My Trusteeship";
+"My Takeover" = "My Take-over";
+"My Message" = "My Message";
+"Member Center" = "Member Center";
+"Service Center" = "My Center";
+"Log Out" = "Log Out";
+
+"patient" = "Patient";
+"message" = "Message";
+"mine" = "Mine";
+
+
+/* Login Section */
+"Register" = "Register";
+"Registering..." = "Registering...";
+"Reset" = "Reset Password";
+"hongkong" = "HongKong";
+
+"notice"="Notice";
+"errorphonenumber"="Invalid";
+"sure"="Sure";
+
+"Get" = "Acquire";
+"Get Again" = "Regain";
+
+
+"willsendthecodeto"="We will send CAPTCHA message to this phone number";
+"surephonenumber"="Confirm your mobile phone number";
+
+"codesenderrormsg"="Fail to send CAPTCHA,please try again later";
+"codesenderrtitle"="Sent failure";
+
+"Please input verification code" = "Please enter CAPTCHA";
+
+"verification code can't be empty" = "CAPTCHA cannot be blank";
+"password code can't be empty" = "Password cannot be blank";
+"maxcodemsg"="Requests of CAPTCHA off limits,please try again later";
+"maxcode"="Off limits";
+"password reset successful" = "Modify password successful";
+"Reset And Logining.." = "Reset password and login..";
+
+"phone is not regist" = "Unregistered mobile phone number";
+"Please Input Hospital" = "Please enter your affiliated hospital";
+
+"Sending code" = "Sending CAPTCHA";
+
+"codetoooftenmsg"="Message requests out of limits";
+
+"countrychoose"="Select Country";
+"choosegender"="Select Gender";
+"female"="Female";
+"male"="Male";
+
+"female2"="F";
+"male2"="M";
+
+"Please Choose Service Center" = "Please select service center";
+"Please Choose Department" = "Please select department";
+
+"number is Binding telephone" = "This mobile phone number has been";
+
+
+"Your account is login in another place" = "Your account logged in elsewhere,please relog";
+"This Telephone is not belong you" = "This is not your mobile phone number";
+"This number is not belong you" = "This is not your account";
+"This number is already regist" = "This mobile phone number is registered";
+
+
+"Password Format is not avaliable" = "Password no less than 6 characters";
+"UserName Format is not avaliable" = "Real name is not standard";
+
+/* My Patient Section */
+"now" = "today";
+"Sort" = "Arrange";
+"Search" = "Search";
+
+"manage" = "Manage";
+"trusteeship" = "Trust";
+"takeover" = "Acception";
+"now drug" = "Current medications";
+"before drug" = "Past medications";
+
+"from next report" = "from next report";
+
+"Single Patient" = "Individual Patient";
+"Control Effect" = "Glycemic-control Efficiacy";
+"Recovery Log" = "Recovery Record";
+"Send Suggest" = "Send advice";
+"Click this select mode of sort" = "Click to select ordering mode";
+
+
+"Report Time Ascend" = "Time sequence of report";
+"Report Time Descend" = "Inverse time sequence of report";
+"The binding time descending" = "Inverse time sequence binding";
+"The binding time ascending" = "Time sequence binding";
+"Age from old to young" = "From older to younger ";
+"Age from young to old" = "From younger  to older  ";
+"Service level from high to low" = "Service level from high to low";
+"Service level from low to high" = "Service level from low to high";
+"Only takeover" = "See take-over only";
+"Only Hosting" = "See trusteeship only";
+
+"Unit" = "Unit";
+
+"none" = "none";
+"open" = "Activate";
+"No Data" = "No Data";
+
+"Cancel" = "Cancel";
+
+"Select Time Span" = "Select Time Span";
+
+"Select By Day" = "Search daily";
+"Select By Week" = "Nearly a week";
+"Select By Month" = "Nearly a month";
+"Select By Three Days" = "Nearly three days";
+"Select By Two Weeks" = "Nearly two weeks";
+"Select By Two Months" = "Nearly two months";
+"Select By Three Months" = "Nearly three months";
+
+"A Day" = "A Day";
+"Three Days" = "Three Days";
+"A Week" = "A Week";
+"Two Weeks" = "Two Weeks";
+"A Month" = "A Month";
+"Two Months" = "Two Months";
+"Three Months" = "Three Months";
+
+
+"Nearest 7 days" = "Nearest 7 days";
+"Nearest 14 days" = "Nearest 14 days";
+"Nearest 30 days" = "Nearest 30 days";
+"Nearest 60 days" = "Nearest 60 days";
+
+
+
+"detect" = "Measurement";
+"exercise" = "Sports";
+"drug" = "Medication";
+"diet" = "Diet";
+
+
+
+"milligram" = "mg";
+"gram" = "g";
+"grain" = "Pill";
+"piece" = "Piece";
+"unit" = "Unit";
+"milliliter" = "ml";
+"branch" = "Stick";
+"bottle" = "Bottle";
+
+
+"per os" = "Oral";
+"injection" = "Injection";
+"insulin pump" = "Insulin pump";
+
+
+"before breakfast" = "Before breakfast";
+"after breakfast" = "After breakfast";
+"before lunch" = "Before lunch";
+"after lunch" = "After lunch";
+"before dinner" = "Before supper";
+"after dinner" = "After supper";
+
+"breakfast" = "Breakfast";
+"lunch" = "Lunch";
+"dinner" = "Supper";
+"extra meal" = "Extra meal";
+
+"glucose" = "Blood glucose";
+"hemoglobinef" = "HbA1c";
+
+"GlucoTrace" = "Gluco Track";
+"Other's facility" = "Other device";
+
+
+"in all intake" = "Total intake of";
+"By Date" = "Select date";
+
+
+"minute" = "Minute";
+"expend" = "Consumption";
+"calorie" = "calorie";
+
+"Send Report" = "Send Report";
+"Send Succeed" = "Sent successful";
+
+"Read recovery log" = "View recovery record";
+"Plese input your advice" = "Please enter your advice";
+
+
+
+/* Control Effect */
+"Fasting Blood-glucose" = "FGB";
+"Postprandial Blood-glucose After 2 hours" = "2 hours postprandial blood glucose";
+"Postprandial Blood-glucose After 1 hours" = "1 hour postprandial blood glucose";
+"Glycated hemoglobin" = "HbA1c";
+"Select Period" = "Select Period";
+"Curative Effect Evaluation" = "Efficiacy";
+"DetectionTime" = "DetTime ";
+"Input Time" = "Enter times";
+
+"Exceeding Time" = "Beyond";
+"Maximum Value" = "Maximum";
+"Minimum Value" = "Minimum";
+"Average Value" = "Mean";
+"Cannot get the Evaluation" = "Cannot acquire glycemic-control effect";
+
+
+/* My Hosting & Takeover  Section */
+
+"Choose patients" = "Select patient";
+"Choose doctor" = "Select doctor";
+
+"A Commissioned Successfully" = "Initiate trusteeship successful";
+
+"Choose" = "Select";
+"Time Can't be empty" = "Trust time cannot be blank";
+
+"no patient to trusteeship" = "haven't patient which can trusteeship";
+"no doctor to trusteeship" = "haven't doctor which can take-over";
+
+
+
+"already choose" = "Selected";
+"number patient" = "paient";
+
+
+"Select All" = "Select All";
+"Cancel All" = "Cancel Select";
+
+
+"Waitting" = "Verifying";
+"Confirmed" = "Accept";
+"Refused" = "Reject";
+"Over" = "Expired";
+"BeConfirmed" = "Accepted";
+"BeRefused" = "Rejected";
+
+//trusteeship
+"Commited" = "Commited";
+"trusteeship to doctor" = "trusteeship to doctor";
+"estimated trusteeship time" = "estimated trusteeship time";
+"doctor" = "doctor";
+"trusteeship patient" = "trusteeship patient";
+"takeover patient" = "takeover patient";
+"takeover time" = "takeover time";
+"refuse takeover patient" = "refuse takeover patient";
+"old" = "years old";
+"to" = "to";
+"'s trusteeship" = "'s trusteeship";
+
+"old2" = "";
+
+
+"finish day can't earlier than begin day" = "End date cannot be earlier than or equal to start date";
+"Can't be earlier than today" = "Selected date cannot be earlier than today";
+"Can't be later than today" = "Selected date cannot be later than today";
+"begin day can't later than finish day" = "Start date cannot be later than or eual to end date ";
+"Can't be earlier and equal than today" = "Selected date cannot be later than or equal to today";
+
+"Please Choose Doctor" = "Please select doctor";
+"Please Choose Patient" = "Please select patient";
+
+
+//takeover
+"trusteeship to me" = "trusteeship to me";
+"takeover doctor" = "takeover doctor";
+"her patient" = "her patient";
+"refuse doctor" = "refuse doctor";
+
+
+"sure to refuse takeover" = "Are you sure to reject?";
+"sure to confirm takeover" = "Are you sure to accept?";
+
+"you are confirm the trusteeship" = "You accepted this trusteeship";
+"you are refuse the trusteeship" = "You rejected this trusteeship";
+
+
+
+/* My Message Section */
+"Approve Result" = "Approve Result";
+"System Bulletin" = "System Bulletin";
+"Conversation List" = "Conversation List";
+
+
+"day" = "Day";
+"today" = "Today";
+"tomorrow" = "Tomorrow";
+"yesterday" = "Yesterday";
+"beforeYesterday" = "The day before yesterday";
+
+/* Member Center Section */
+"About app" = "About us";
+"Terms of service" = "Terms of service";
+"Advice feed back" = "Feedback";
+
+"Log out" = "Log out";
+
+"Hospital" = "Hospital";
+"Head portrait" = "Avatar";
+"Real name" = "Real name";
+"Sex" = "Gender";
+"Date of birth" = "Birth Date";
+"Level" = "Level";
+"Department" = "Department";
+"ID" = "ID";
+"Service Center" = "Service Center";
+"Skill territory" = "Specialty";
+"input here" = "Enter here";
+"Submit" = "Submission";
+"Saving Data" = "Saving Data";
+"Edit" = "Edit";
+
+"Upload Successful,save to change" = "Avatar upload successful,save modifications after";
+"Data Updated" = "Data updating successful";
+"Upload succeed"  = "Upload successful";
+"none department parameter" = "No department information";
+"none Service Center" = "No service center";
+
+"Your information is under review" = "   Your details are being approved,cannot edit";
+
+"Please input your feed back" = "Please enter your feedback";
+"Loading Department Parameters" = "Loading department..";
+"Loading Service Center" = "Loading Service Center..";
+"Thumbnail uploading" = "Uploading image..";
+"Upload Successful" = "Upload Successful";
+
+"phone inconformity With Your account" = "This mobile phone number is not log-in phone number";
+
+"Version" = "Version";
+
+"physician" = "Doctor";
+"director" = "Director";
+"professor" = "Professor";
+
+
+"approve result" = "Data sheet updating";
+"system bulletin" = "System Notification";
+"Agent Message" = "Message";
+
+"have not approve result" = "have not approve result";
+"have not system bulletin" = "No system notice";
+
+"Enter Your Specialty" = "Enter Your Specialty";
+
+
+/* System Set Section */
+
+"Glucose unit" = "Units of blood glucose";
+"Reset password" = "Reset password";
+"Reset telephone" = "Rebind mobile phone number";
+
+"Verification code has been sent" = "CAPTCHA sent";
+
+"Authentication is successful" = "Successful validation";
+
+"phoneNumber or password error" = "Mobile phone number mismatches password";
+"Reset successed, Please login again" = "Reset password sccessfully,please login again";
+"PhoneNumber binding successed, Please login again" = "Bind mobile phone number sccessfully,please login again";
+
+
+/* Send Report */
+"Backup" = "Backup";
+"Add" = "New";
+"Send Advice To Your Patient" = "Send Advice To Your Patient";
+"Choose photos" = "Select image";
+"Device has no camera" = "This device do not support camera";
+"Report Title Length Must Less Than 40" = "No more than 40 characters for title";
+"Report Content's Length Must Less Than 2000" = "No more than 2000 characters for content";
+
+
+"Please Input The Report Title" = "Please enter title of report";
+"Please Input the Report Content" = "Please enter content of report";
+
+
+"Save Success" = "Save successful";
+"Backup Success" = "Finish sync";
+"New Backup Time" = "Latest backup time";
+
+"Report Model Is Not Greater Than 40" = "No more than 40 Report Template";
+
+"Sending Report.." = "Sending report..";
+
+"Send" = "Send";
+"Use" = "Use";
+"Complete" = "Finish";
+
+
+"Send Report" = "Send Report";
+
+
+
+"Report Model" = "Report Template";
+"Report Detail" = "Report Details";
+"Add Report" = "New Report";
+"Report History" = "History Report";
+
+"Ascend" = "Sequential array";
+"Descend" = "Reverse array";
+
+
+
+
+
+
+

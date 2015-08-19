@@ -1,0 +1,268 @@
+
+/* Class = "IBUILabel"; text = "Other Facility's Glu"; ObjectID = "1Fs-tr-IzX"; */
+"1Fs-tr-IzX.text" = "檢測";
+
+/* Class = "IBUILabel"; text = "无"; ObjectID = "1O4-fM-ogM"; */
+"1O4-fM-ogM.text" = "無";
+
+/* Class = "IBUILabel"; text = "2015-01-08"; ObjectID = "1kk-9l-ukQ"; */
+"1kk-9l-ukQ.text" = "2015-01-08";
+
+/* Class = "IBUILabel"; text = "Maximum Value"; ObjectID = "2TE-Wy-QbK"; */
+"2TE-Wy-QbK.text" = "最低值";
+
+/* Class = "IBUILabel"; text = "14/12/03 16:01"; ObjectID = "2Tz-fP-T9p"; */
+"2Tz-fP-T9p.text" = "14/12/03 16:01";
+
+/* Class = "IBUIBarButtonItem"; title = "Send Advice"; ObjectID = "2wK-Bx-uby"; */
+"2wK-Bx-uby.title" = "發送建議";
+
+/* Class = "IBUILabel"; text = "Choose the option to show"; ObjectID = "4Pe-rK-Tjf"; */
+"4Pe-rK-Tjf.text" = "選擇要查看的類別";
+
+/* Class = "IBUIButton"; normalTitle = "Filtrate"; ObjectID = "50L-4H-Nz5"; */
+"50L-4H-Nz5.normalTitle" = "篩選";
+
+/* Class = "IBUINavigationItem"; title = "Recovery Log"; ObjectID = "6vW-Vh-yn7"; */
+"6vW-Vh-yn7.title" = "康復日誌";
+
+/* Class = "IBUILabel"; text = "接管中"; ObjectID = "7KB-ci-Vgr"; */
+"7KB-ci-Vgr.text" = "接管中";
+
+/* Class = "IBUILabel"; text = "用药改变"; ObjectID = "AgD-l1-vSj"; */
+"AgD-l1-vSj.text" = "用藥改變";
+
+/* Class = "IBUILabel"; text = "diet"; ObjectID = "DGF-av-Nb3"; */
+"DGF-av-Nb3.text" = "飲食";
+
+/* Class = "IBUITabBarItem"; title = "Medical History"; ObjectID = "EbV-De-BnO"; */
+"EbV-De-BnO.title" = "檢測數據";
+
+/* Class = "IBUIButton"; normalTitle = "By Date"; ObjectID = "F6b-AQ-uUw"; */
+"F6b-AQ-uUw.normalTitle" = "選擇日期";
+
+/* Class = "IBUILabel"; text = "6.7mmol/L 其他设备"; ObjectID = "G5O-Mt-wzn"; */
+"G5O-Mt-wzn.text" = "6.7mmol/L 其他設備";
+
+/* Class = "IBUILabel"; text = "Hello world"; ObjectID = "Gy9-nu-M4b"; */
+"Gy9-nu-M4b.text" = "Hello world";
+
+/* Class = "IBUILabel"; text = "克里斯多缴费了快速的减肥类似的会计法律上看到对了开考试的减肥了快速的减肥了快速的"; ObjectID = "HSL-Yk-Ytz"; */
+"HSL-Yk-Ytz.text" = "克里斯多缴费了快速的减肥类似的会计法律上看到对了开考试的减肥了快速的减肥了快速的";
+
+/* Class = "IBUIButton"; normalTitle = "Confirm"; ObjectID = "IE8-hC-em6"; */
+"IE8-hC-em6.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "现用药"; ObjectID = "KBp-4w-gQI"; */
+"KBp-4w-gQI.text" = "現用藥";
+
+/* Class = "IBUILabel"; text = "Glu"; ObjectID = "KOa-Ln-Rhi"; */
+"KOa-Ln-Rhi.text" = "Glu";
+
+/* Class = "IBUITabBarItem"; title = "Test Result"; ObjectID = "L35-m4-LKw"; */
+"L35-m4-LKw.title" = "控糖成效";
+
+/* Class = "IBUITabBarItem"; title = "Recovery Log"; ObjectID = "IEh-DR-4ir"; */
+"IEh-DR-4ir.title" = "康復日誌";
+
+/* Class = "IBUITabBarItem"; title = "Medical Record"; ObjectID = "Qbw-Vy-3BS"; */
+"Qbw-Vy-3BS.title" = "既往病史";
+
+/* Class = "IBUILabel"; text = "Test times"; ObjectID = "LWf-fe-Xbk"; */
+"LWf-fe-Xbk.text" = "檢測次數";
+
+/* Class = "IBUILabel"; text = "曾用药"; ObjectID = "M8r-Vj-iUu"; */
+"M8r-Vj-iUu.text" = "曾用藥";
+
+/* Class = "IBUILabel"; text = "王小虎"; ObjectID = "MoL-Oi-Lqs"; */
+"MoL-Oi-Lqs.text" = "";
+
+/* Class = "IBUILabel"; text = "2014-12-10 14:00"; ObjectID = "NTJ-xn-d3Y"; */
+"NTJ-xn-d3Y.text" = "2014-12-10 14:00";
+
+/* Class = "IBUILabel"; text = "患者2009年8月因妇科炎症服用“金刚藤胶囊”色黄，体重无明显变化。"; ObjectID = "Nqc-w5-heL"; */
+"Nqc-w5-heL.text" = "患者2009年8月因妇科炎症服用“金刚藤胶囊”色黄，体重无明显变化。";
+
+/* Class = "IBUILabel"; text = "2014-10-15 20:45"; ObjectID = "O76-t5-9K6"; */
+"O76-t5-9K6.text" = "2014-10-15 20:45";
+
+/* Class = "IBUILabel"; text = "35岁"; ObjectID = "ObL-hb-yyO"; */
+"ObL-hb-yyO.text" = "";
+
+/* Class = "IBUILabel"; text = "GlucoCare Glu"; ObjectID = "Oii-50-Gsv"; */
+"Oii-50-Gsv.text" = "用藥";
+
+/* Class = "IBUILabel"; text = "Hospital"; ObjectID = "Om3-i2-9YC"; */
+"Om3-i2-9YC.text" = "確診醫院";
+
+/* Class = "IBUILabel"; text = "History"; ObjectID = "g0F-b6-Ccw"; */
+"g0F-b6-Ccw.text" = "病歷資料";
+
+/* Class = "IBUILabel"; text = "Minimum Value"; ObjectID = "S78-tc-yWQ"; */
+"S78-tc-yWQ.text" = "最低值";
+
+/* Class = "IBUILabel"; text = "Medications"; ObjectID = "SVE-CZ-7EO"; */
+"SVE-CZ-7EO.text" = "運動";
+
+/* Class = "IBUILabel"; text = "GlucoCare HbA1c"; ObjectID = "W03-io-hIY"; */
+"W03-io-hIY.text" = "運動";
+
+/* Class = "IBUILabel"; text = "Cure State"; ObjectID = "WYC-ZJ-gDk"; */
+"WYC-ZJ-gDk.text" = "治療狀況";
+
+/* Class = "IBUILabel"; text = "Message Log"; ObjectID = "Wh3-uz-7Kq"; */
+"Wh3-uz-7Kq.text" = "歷史留言";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "XKW-ut-Md7"; */
+"XKW-ut-Md7.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Exercise"; ObjectID = "aO7-kN-9uc"; */
+"aO7-kN-9uc.text" = "運動";
+
+/* Class = "IBUILabel"; text = "低"; ObjectID = "aUf-hB-t93"; */
+"aUf-hB-t93.text" = "低";
+
+/* Class = "IBUILabel"; text = "Send Patients Advice:"; ObjectID = "aeP-z7-qGH"; */
+"aeP-z7-qGH.text" = "Send Patients Advice:";
+
+/* Class = "IBUILabel"; text = "Average Value"; ObjectID = "b10-KI-ctI"; */
+"b10-KI-ctI.text" = "平均值";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "bLp-It-Yca"; */
+"bLp-It-Yca.normalTitle" = "確定";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "bms-1f-RH0"; */
+"bms-1f-RH0.title" = "菜單";
+
+/* Class = "IBUINavigationItem"; title = "Send Advice"; ObjectID = "cEf-0q-bke"; */
+"cEf-0q-bke.title" = "發送建議";
+
+/* Class = "IBUILabel"; text = "思思"; ObjectID = "ck4-vN-mx9"; */
+"ck4-vN-mx9.text" = "";
+
+/* Class = "IBUILabel"; text = "FBG"; ObjectID = "dVB-ih-lJw"; */
+"dVB-ih-lJw.text" = "FBG";
+
+/* Class = "IBUILabel"; text = "绑定时间:"; ObjectID = "foX-CX-jkz"; */
+"foX-CX-jkz.text" = "離下次出報告還有";
+
+/* Class = "IBUIButton"; normalTitle = "Recovery Log"; ObjectID = "g1H-bS-sLd"; */
+"g1H-bS-sLd.normalTitle" = "康復日誌";
+
+/* Class = "IBUILabel"; text = "广州xx医院"; ObjectID = "gON-6g-Kpi"; */
+"gON-6g-Kpi.text" = "";
+
+/* Class = "IBUILabel"; text = "45岁"; ObjectID = "gPW-nI-fOX"; */
+"gPW-nI-fOX.text" = "";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "iHm-UT-Epm"; */
+"iHm-UT-Epm.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "Hello world"; ObjectID = "idB-5b-C9H"; */
+"idB-5b-C9H.text" = "";
+
+/* Class = "IBUILabel"; text = "服药时间"; ObjectID = "jia-78-DXs"; */
+"jia-78-DXs.text" = "服藥時間";
+
+/* Class = "IBUILabel"; text = "Curative Effect Evaluation"; ObjectID = "jsX-zR-CSG"; */
+"jsX-zR-CSG.text" = "綜合療效評價";
+
+/* Class = "IBUILabel"; text = "Exceeding times"; ObjectID = "kz7-Md-0bW"; */
+"kz7-Md-0bW.text" = "Exceeding times";
+
+/* Class = "IBUIButton"; normalTitle = "改善"; ObjectID = "lrW-jM-vlz"; */
+"lrW-jM-vlz.normalTitle" = "既往病史";
+
+/* Class = "IBUILabel"; text = "女"; ObjectID = "m7z-ID-VXP"; */
+"m7z-ID-VXP.text" = "";
+
+/* Class = "IBUILabel"; text = "女"; ObjectID = "mY4-Vd-gDC"; */
+"mY4-Vd-gDC.text" = "";
+
+/* Class = "IBUISegmentedControl"; n7P-XW-ulg.segmentTitles[0] = "BloodSugar"; ObjectID = "n7P-XW-ulg"; */
+"n7P-XW-ulg.segmentTitles[0]" = "Glu";
+
+/* Class = "IBUISegmentedControl"; n7P-XW-ulg.segmentTitles[1] = "GHBALC"; ObjectID = "n7P-XW-ulg"; */
+"n7P-XW-ulg.segmentTitles[1]" = "HbA1c";
+
+/* Class = "IBUILabel"; text = "Other Facility's HbA1c"; ObjectID = "oGw-qF-KYm"; */
+"oGw-qF-KYm.text" = "用藥";
+
+/* Class = "IBUILabel"; text = "高"; ObjectID = "qBc-QY-caS"; */
+"qBc-QY-caS.text" = "";
+
+/* Class = "IBUILabel"; text = "Scheme"; ObjectID = "rAC-DT-IZw"; */
+"rAC-DT-IZw.text" = "治療方案";
+
+/* Class = "IBUILabel"; text = "Service Level:"; ObjectID = "rmh-O8-PSx"; */
+"rmh-O8-PSx.text" = "服務等級:";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "s1R-S8-mO9"; */
+"s1R-S8-mO9.text" = "";
+
+/* Class = "IBUILabel"; text = "治疗中"; ObjectID = "s9y-XZ-XgZ"; */
+"s9y-XZ-XgZ.text" = "";
+
+/* Class = "IBUINavigationItem"; title = "Control Effect"; ObjectID = "sFu-fz-Nu8"; */
+"sFu-fz-Nu8.title" = "控糖成效";
+
+/* Class = "IBUIButton"; normalTitle = "Choose Date"; ObjectID = "tpu-cm-Y53"; */
+"tpu-cm-Y53.normalTitle" = "選擇日期";
+
+/* Class = "IBUINavigationItem"; title = "Single Patient"; ObjectID = "uuO-VU-xZS"; */
+"uuO-VU-xZS.title" = "病人詳情";
+
+/* Class = "IBUILabel"; text = "Choose Period"; ObjectID = "vMo-yE-3EF"; */
+"vMo-yE-3EF.text" = "選擇週期";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "voT-gP-8SF"; */
+"voT-gP-8SF.normalTitle" = "";
+
+/* Class = "IBUILabel"; text = "单位 mmol/L"; ObjectID = "w0O-XF-9kY"; */
+"w0O-XF-9kY.text" = "單位 mmol/L";
+
+/* Class = "IBUILabel"; text = "服务等级:"; ObjectID = "x5p-uK-sET"; */
+"x5p-uK-sET.text" = "服務等級:";
+
+/* Class = "IBUINavigationItem"; title = "My Patients"; ObjectID = "xep-gU-XHv"; */
+"xep-gU-XHv.title" = "我的病人";
+
+/* Class = "IBUIButton"; normalTitle = "Send"; ObjectID = "yud-SK-C6S"; */
+"yud-SK-C6S.normalTitle" = "發送";
+
+
+/* Class = "IBUILabel"; text = "Maximum Value"; ObjectID = "dbQ-d9-eIZ"; */
+"dbQ-d9-eIZ.text" = "最高值";
+
+/* Class = "IBUILabel"; text = "Minimum Value"; ObjectID = "fPE-Lw-vcH"; */
+"fPE-Lw-vcH.text" = "最低值";
+
+/* Class = "IBUILabel"; text = "Limosis Glucose Fluctuation\n"; ObjectID = "lgw-lV-OZX"; */
+"lgw-lV-OZX.text" = "空腹血糖波動";
+
+
+/* Class = "UINavigationItem"; title = "Medical Record"; ObjectID = "P9D-bI-4t8"; */
+"P9D-bI-4t8.title" = "既往病史";
+
+
+/* Class = "IBUILabel"; text = "Choose Period"; ObjectID = "vMo-yE-3EF"; */
+"47s-Bp-zFZ.text" = "選擇週期";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "s1R-S8-mO9"; */
+"gW1-CR-tOM.text" = "近七天";
+
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "s1R-S8-mO9"; */
+"c5A-4m-eE9.text" = "確定";
+
+
+/* Class = "IBUIButton"; normalTitle = "Send Message"; ObjectID = "m3A-AQ-nyI"; */
+"m3A-AQ-nyI.normalTitle" = "發送消息";
+
+
+
+
+"adX-5Z-FWS.normalTitle" = "取消";
+
+
+"YBZ-Vh-AVC.normalTitle" = "確定";

@@ -1,0 +1,151 @@
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "2aS-ZD-sT7"; */
+"2aS-ZD-sT7.normalTitle" = "確定";
+
+/* Class = "IBUIButton"; normalTitle = "返回登陆页面"; ObjectID = "3hL-DY-lPc"; */
+"3hL-DY-lPc.normalTitle" = "返回登錄頁面";
+
+/* Class = "IBUITextField"; placeholder = "Input the code you received"; ObjectID = "6eo-Pd-Vtl"; */
+"6eo-Pd-Vtl.placeholder" = "輸入收到的驗證碼";
+
+/* Class = "IBUILabel"; text = "Login password"; ObjectID = "7bF-zV-wsi"; */
+"7bF-zV-wsi.text" = "登錄密碼";
+
+/* Class = "IBUILabel"; text = "Department"; ObjectID = "8Lz-LE-79B"; */
+"8Lz-LE-79B.text" = "科室";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "BPr-l3-k8i"; */
+"BPr-l3-k8i.normalTitle" = "取消";
+
+/* Class = "IBUITextField"; placeholder = "username"; ObjectID = "CJ8-AL-bcw"; */
+"1SD-7b-8hm.placeholder" = "手機號/郵箱";
+
+/* Class = "IBUINavigationItem"; title = "Regist Complete"; ObjectID = "Dus-pv-xHY"; */
+"Dus-pv-xHY.title" = "註冊成功";
+
+/* Class = "IBUIButton"; normalTitle = "Forget?"; ObjectID = "DvX-ci-ntZ"; */
+"irB-3X-wXH.normalTitle" = "忘記密碼?";
+
+/* Class = "IBUILabel"; text = "Date of birth"; ObjectID = "E3U-bP-TZN"; */
+"E3U-bP-TZN.text" = "出生日期";
+
+/* Class = "IBUILabel"; text = "Hongkong"; ObjectID = "EJu-HA-vhD"; */
+"EJu-HA-vhD.text" = "香港";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ET8-n5-s1R"; */
+"ET8-n5-s1R.text" = "標題";
+
+/* Class = "IBUITextField"; placeholder = "Input your mobile number"; ObjectID = "GOa-rI-zr5"; */
+"GOa-rI-zr5.placeholder" = "輸入您的手機號碼";
+
+/* Class = "IBUITextField"; placeholder = "At least 6 numbers"; ObjectID = "GTG-Y1-jl3"; */
+"GTG-Y1-jl3.placeholder" = "至少六位數字";
+
+/* Class = "IBUIButton"; normalTitle = "1959-02-12"; ObjectID = "Hlw-O5-Mo1"; */
+"Hlw-O5-Mo1.normalTitle" = "1959-02-12";
+
+/* Class = "IBUIButton"; normalTitle = "Get Verification"; ObjectID = "IFV-Iw-SjI"; */
+"IFV-Iw-SjI.normalTitle" = "獲取驗證碼";
+
+/* Class = "IBUITextField"; placeholder = "Can not modify after setting "; ObjectID = "INx-6B-tHt"; */
+"INx-6B-tHt.placeholder" = "最多24位,支持中/英文";
+
+/* Class = "IBUIButton"; normalTitle = "Regist"; ObjectID = "IWV-3g-tBE"; */
+"IWV-3g-tBE.normalTitle" = "註冊";
+
+/* Class = "IBUILabel"; text = "Country/Region"; ObjectID = "Im1-zL-Z6o"; */
+"Im1-zL-Z6o.text" = "國家/地區";
+
+/* Class = "IBUILabel"; text = "Verification Code"; ObjectID = "MEE-wL-zK3"; */
+"MEE-wL-zK3.text" = "驗證碼";
+
+/* Class = "IBUILabel"; text = "Verification Code"; ObjectID = "MoL-Nl-X0q"; */
+"MoL-Nl-X0q.text" = "驗證碼";
+
+/* Class = "IBUIButton"; normalTitle = "Click to setup"; ObjectID = "NCf-sz-6x3"; */
+"NCf-sz-6x3.normalTitle" = "請選擇科室";
+
+/* Class = "IBUIButton"; normalTitle = "Get again"; ObjectID = "OCg-Rs-f1f"; */
+"OCg-Rs-f1f.normalTitle" = "重新獲取";
+
+/* Class = "IBUILabel"; text = "Reset password"; ObjectID = "QyN-hK-NOL"; */
+"QyN-hK-NOL.text" = "重設密碼";
+
+/* Class = "IBUITextField"; placeholder = "Input the code you received"; ObjectID = "UGk-6z-NB0"; */
+"UGk-6z-NB0.placeholder" = "輸入收到的驗證碼";
+
+/* Class = "IBUILabel"; text = "Please enter your phone number"; ObjectID = "ZvW-SW-zmY"; */
+"ZvW-SW-zmY.text" = "請輸入您的手機號";
+
+/* Class = "IBUIButton"; normalTitle = "Get again"; ObjectID = "bFf-eh-f31"; */
+"bFf-eh-f31.normalTitle" = "重新獲取";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "cJp-ld-tjf"; */
+"cJp-ld-tjf.text" = "詳情";
+
+/* Class = "IBUILabel"; text = "Gender"; ObjectID = "ebE-IX-tMt"; */
+"ebE-IX-tMt.text" = "性別";
+
+/* Class = "IBUIButton"; normalTitle = "Click to setup"; ObjectID = "fXb-XR-5l4"; */
+"fXb-XR-5l4.normalTitle" = "請選擇服務中心";
+
+/* Class = "IBUIButton"; normalTitle = "Regist"; ObjectID = "g2g-7z-LEQ"; */
+"or5-Vi-JA0.normalTitle" = "註冊";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "g4F-U6-SOx"; */
+"g4F-U6-SOx.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "    您的注册请求已收到，我们在审核后会把结果下发到您的手机，请注意查收短信。"; ObjectID = "i57-2F-6H5"; */
+"i57-2F-6H5.text" = "    您的註冊請求已收到,審核成功后您即可登錄。";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "iiN-E0-tNM"; */
+"iiN-E0-tNM.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "User Name"; ObjectID = "m48-uM-bvg"; */
+"m48-uM-bvg.text" = "真實姓名";
+
+/* Class = "IBUILabel"; text = "Service Center"; ObjectID = "mUB-tA-FIq"; */
+"mUB-tA-FIq.text" = "服務中心";
+
+/* Class = "IBUITextField"; placeholder = "At least 6 numbers"; ObjectID = "mek-69-q17"; */
+"mek-69-q17.placeholder" = "6-16位,支持數字/英文";
+
+/* Class = "IBUILabel"; text = "+852"; ObjectID = "p6g-pM-dCC"; */
+"p6g-pM-dCC.text" = "+852";
+
+/* Class = "IBUIButton"; normalTitle = "Reset"; ObjectID = "r3A-2n-ynh"; */
+"r3A-2n-ynh.normalTitle" = "重設密碼";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "vep-dG-PZ9"; */
+"dZV-OC-eQn.normalTitle" = "登錄";
+
+/* Class = "IBUITextField"; placeholder = "password"; ObjectID = "vzZ-lf-xNE"; */
+"BqL-AV-3wZ.placeholder" = "密碼";
+
+/* Class = "IBUIButton"; normalTitle = "Male"; ObjectID = "yN6-sG-iSK"; */
+"yN6-sG-iSK.normalTitle" = "男";
+
+
+/* Class = "IBUILabel"; text = "Verification Code"; ObjectID = "B9h-Qg-OAD"; */
+"B9h-Qg-OAD.text" = "验证码";
+
+/* Class = "IBUITextField"; placeholder = "Input The Verification Code"; ObjectID = "MYC-GY-jYe"; */
+"MYC-GY-jYe.placeholder" = "输入您收到的验证码";
+
+/* Class = "IBUIButton"; normalTitle = "Binding Telephone"; ObjectID = "eU1-GX-gfD"; */
+"eU1-GX-gfD.normalTitle" = "绑定手机";
+
+/* Class = "IBUIButton"; normalTitle = "Verify"; ObjectID = "xp0-3n-FDo"; */
+"xp0-3n-FDo.normalTitle" = "重新获取";
+
+/* Class = "IBUINavigationItem"; title = "Reset Telephone"; ObjectID = "k5A-PL-f01"; */
+"k5A-PL-f01.title" = "重新绑定手机";
+
+
+/* Class = "IBUILabel"; text = "Hospital"; ObjectID = "XMz-Um-qVh"; */
+"XMz-Um-qVh.text" = "您工作的醫院";
+
+
+/* Class = "IBUITextField"; placeholder = "Can not modify after setting "; ObjectID = "Nxs-e1-IiV"; */
+"Nxs-e1-IiV.placeholder" = "設置后無法修改";
+

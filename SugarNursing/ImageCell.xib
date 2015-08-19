@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="R93-hU-IgN" customClass="Image_Cell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmc-8Y-kzw">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="imageButtonTouchEvent:" destination="R93-hU-IgN" eventType="touchUpInside" id="Okw-xG-4fH"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UT-9P-jPn">
+                        <rect key="frame" x="50" y="0.0" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="3pC-LM-joi"/>
+                            <constraint firstAttribute="width" constant="40" id="paB-Gh-4p4"/>
+                        </constraints>
+                        <state key="normal" image="close"/>
+                        <connections>
+                            <action selector="deleteButtonTouchEvent:" destination="R93-hU-IgN" eventType="touchUpInside" id="aKY-V3-Ut8"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="6UT-9P-jPn" firstAttribute="top" secondItem="R93-hU-IgN" secondAttribute="top" id="8Yb-w7-lqy"/>
+                <constraint firstItem="Tmc-8Y-kzw" firstAttribute="leading" secondItem="R93-hU-IgN" secondAttribute="leading" id="GFg-0K-cu1"/>
+                <constraint firstAttribute="trailing" secondItem="6UT-9P-jPn" secondAttribute="trailing" id="Gcz-WT-Zht"/>
+                <constraint firstAttribute="trailing" secondItem="Tmc-8Y-kzw" secondAttribute="trailing" id="GnI-YC-kGE"/>
+                <constraint firstItem="Tmc-8Y-kzw" firstAttribute="top" secondItem="R93-hU-IgN" secondAttribute="top" id="Voj-Mh-ZFz"/>
+                <constraint firstAttribute="bottom" secondItem="Tmc-8Y-kzw" secondAttribute="bottom" id="sWE-eh-fdQ"/>
+            </constraints>
+            <connections>
+                <outlet property="deleteButton" destination="6UT-9P-jPn" id="rqs-0e-k8J"/>
+                <outlet property="imageButton" destination="Tmc-8Y-kzw" id="GPv-0G-1Pu"/>
+            </connections>
+            <point key="canvasLocation" x="337" y="289"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="close" width="20" height="20"/>
+    </resources>
+</document>
